@@ -1,48 +1,48 @@
 {
-  "at": "2026-11-13T04:58:00.357Z",
+  "at": "2026-11-13T15:47:06.242Z",
   "channels": [
-    "𝗨𝗻𝗸𝗻𝗼𝘄𝗻 𝗜𝘁𝗶𝗵𝗮𝗮𝘀",
-    "Har Mod Ki Kahani",
-    "Aakash Tatawat",
-    "Flashback Frenzy",
-    "DocoHidden"
+    "The Unseen Bharat",
+    "History Industry",
+    "Kahani Ka Safar",
+    "kwy true tale",
+    "Story Plug Studio"
   ],
   "wants": [
     {
-      "topic": "Covert Military Operations & Intelligence Victories (e.g., 1971 Naval Ops, Pokhran Nuclear Test)",
-      "evidence": "DocoHidden's Operation Jackpot 1971 achieved 213.01x normal views and Operation Shakti reached 27.34x normal views. Tactical 2D animated breakdowns of Indian military heroism hugely outperform baseline content.",
+      "topic": "Macro-Scale 'Complete History of India' (9000 BC to Modern Era)",
+      "evidence": "'The Unseen Bharat' (vsNormal 71.77, 546k views) and 'kwy true tale' (vsNormal 5.16, 3.7M views) achieved their highest reach with all-encompassing Indian timeline documentaries.",
       "strength": 10
     },
     {
-      "topic": "Nostalgic Social History & Daily Life 100 Years Ago (e.g., weddings, festivals, lifestyle in colonial India)",
-      "evidence": "Unknown Itihaas saw massive virality with ancient wedding culture (22.83x vsNormal) and 1926 Diwali celebrations (7.55x vsNormal), outperforming standard political history.",
+      "topic": "Suppressed/Hidden Lineage & Clan Sagas (e.g., Agnivansh, Forgotten Warrior Orders)",
+      "evidence": "'Kahani Ka Safar' hit a massive 92.71 vsNormal (1.2M views in 9 days) on their Agnivansh video, outperforming all narrative content on their channel.",
       "strength": 9
     },
     {
-      "topic": "Evolutionary & Origin History of Indian Social Systems (e.g., origins of caste, reservation, human evolution)",
-      "evidence": "Aakash Tatawat's 'Human Evolution' hit 294.8x vsNormal and 'How Caste System Formed' hit 139.46x vsNormal, proving massive interest in long-form timeline origin stories.",
-      "strength": 9
+      "topic": "Dark/Tragic Colonial Micro-Histories & Man-Made Disasters",
+      "evidence": "'Story Plug Studio' scored 21.46 vsNormal (1.7M views in 33 days) focusing specifically on the 1877 Madras Famine ('82 Lakh Maut Ka Sach').",
+      "strength": 8
     },
     {
-      "topic": "High-Emotion Heroic Sacrifices & Tragedies of the Freedom Struggle (e.g., Bhagat Singh, Jallianwala Bagh, Partition)",
-      "evidence": "Har Mod Ki Kahani's Bhagat Singh full trajectory video achieved 10.4x vsNormal and Jallianwala Bagh got 7.37x vsNormal; Unknown Itihaas's 1947 Partition got 6.03x vsNormal.",
+      "topic": "Destruction & Secret Architecture of Iconic Monuments/Institutions",
+      "evidence": "'kwy true tale' (Nalanda University creation to destruction, vsNormal 3.98) and 'The Unseen Bharat' (Red Fort hidden world, vsNormal 54.69).",
       "strength": 8
     }
   ],
   "gaps": [
-    "Detailed tactical breakdowns of forgotten Indian naval and covert ops (most channels only cover Siachen or general border wars)",
-    "Nostalgic cultural history of everyday Indians prior to independence ( lifestyle, marriages, food, routines vs typical royal history)",
-    "Comprehensive 'One Shot' linear timelines connecting ancient Indian societal structures directly to modern laws/systems"
+    "Rigorous, source-backed histories of ancient Indian royal lineages (Agnivansh, Nagavansh) separating myth from verified historical chronicles.",
+    "Granular historical breakdowns of colonial tragedies and famines beyond basic high-school freedom struggle narratives.",
+    "Detailed military tactic breakdowns of forgotten Indian battle victories against foreign invasions."
   ],
   "saturated": [
-    "Standard European empire overviews (e.g., Byzantine Empire, standard Roman Empire history without Indian connection)",
-    "Basic textbook introductions to European explorers (e.g., Vasco da Gama's arrival in India)",
-    "Generic Ram Mandir timeline videos and basic Harappan site summaries without an engaging human hook"
+    "Standalone, generic Indus Valley Civilization overviews ('kwy true tale' failed at 0.03 vsNormal).",
+    "Generic temple history overviews like Kedarnath without a unique mystery or mega-scale hook ('The Unseen Bharat' dropped to 0.15 vsNormal).",
+    "Abstract global history/civilizations like Maya or early hominids without direct connection to Indian history ('History Industry' Maya video tanked at 0.06 vsNormal).",
+    "Dry statutory/legal histories of India ('50 Laws History' performed at 0.02 vsNormal)."
   ],
   "title_patterns": [
-    "दादा-दादी के जमाने में / [X] साल पहले [Daily Event] कैसे होता था? | Full Documentary",
-    "Operation [Code Name]: [Shocking Tactical Feat] | [2D Animation / Documentary]",
-    "[Topic] का संपूर्ण इतिहास | One Shot / [Ancient Era] से [Modern Concept] तक",
-    "[Year/Event]: किसी को आज़ादी मिली, किसी को मौत | [Topic] की असली कहानी"
+    "[Topic] का पूरा इतिहास | The Complete History of [Topic]",
+    "[Event/Topic] | [Shocking Statistic/Death Toll] Ka Sach | (Full Hindi Documentary)",
+    "[Warrior Clan/Event], एक ऐसा सच जिसे सदियों तक दुनिया से छिपाकर रखा गया"
   ]
 }
