@@ -1,0 +1,436 @@
+{
+  "channels": {
+    "UCWpk9PSGHoJW1hZT4egxTNQ": {
+      "title": "Ruhi Cenet Documentaries",
+      "hits": 3,
+      "outlierSum": 13.59,
+      "scannedAt": null,
+      "subs": 20200000,
+      "lastSeen": "2026-11-13T04:57:42.072Z"
+    },
+    "UC_zrW2zm5qWJB-haxniZ4Dw": {
+      "title": "Story Plug Studio",
+      "hits": 3,
+      "outlierSum": 150,
+      "scannedAt": "2026-11-12T18:47:26.944Z",
+      "subs": 15700,
+      "lastSeen": "2026-11-13T04:57:42.072Z"
+    },
+    "UCeVxykFF00zkE0CQDgf5izg": {
+      "title": "Kahani Ka Safar",
+      "hits": 4,
+      "outlierSum": 150.66,
+      "scannedAt": "2026-11-12T18:47:25.501Z",
+      "subs": 18400,
+      "lastSeen": "2026-11-13T00:32:58.408Z"
+    },
+    "UC6WzPg6yxF9dQx2_O6R4lww": {
+      "title": "Nitish Rajput",
+      "hits": 4,
+      "outlierSum": 5.9399999999999995,
+      "scannedAt": null,
+      "subs": 8680000,
+      "lastSeen": "2026-11-13T04:57:42.072Z"
+    },
+    "UC-CSyyi47VX1lD9zyeABW3w": {
+      "title": "Dhruv Rathee",
+      "hits": 6,
+      "outlierSum": 3.7399999999999993,
+      "scannedAt": null,
+      "subs": 33300000,
+      "lastSeen": "2026-11-13T04:57:42.072Z"
+    },
+    "UC7Ck5spqgarM--MHnSRyzgw": {
+      "title": "DOCUMENTARY INDUSTRIES",
+      "hits": 3,
+      "outlierSum": 150,
+      "scannedAt": "2026-11-12T18:47:27.664Z",
+      "subs": 233000,
+      "lastSeen": "2026-11-13T04:57:42.072Z"
+    },
+    "UCbogpoTk0HDNuTbav3OGDbQ": {
+      "title": "History Industry",
+      "hits": 6,
+      "outlierSum": 280.76,
+      "scannedAt": "2026-11-12T18:47:24.799Z",
+      "subs": 108000,
+      "lastSeen": "2026-11-13T04:57:42.072Z"
+    },
+    "UCGCh409DId2JGBRGnyIfhEw": {
+      "title": "Real Thugesh ",
+      "hits": 2,
+      "outlierSum": 5.18,
+      "scannedAt": null,
+      "subs": 4470000,
+      "lastSeen": "2026-11-13T04:57:42.072Z"
+    },
+    "UCWvxRZVNjp84I-WCrWD-KRA": {
+      "title": "Itihaas Ki Kahani 100",
+      "hits": 3,
+      "outlierSum": 150,
+      "scannedAt": "2026-11-13T00:32:59.287Z",
+      "subs": 20200,
+      "lastSeen": "2026-11-13T04:57:42.072Z"
+    },
+    "UCtEtiJyqe8KnUb5jEF3SiEQ": {
+      "title": "kwy true tale",
+      "hits": 6,
+      "outlierSum": 218.17999999999998,
+      "scannedAt": "2026-11-12T18:47:26.230Z",
+      "subs": 89400,
+      "lastSeen": "2026-11-13T04:57:42.072Z"
+    },
+    "UCMA-Jv3rkXgtUKknJ35JMcQ": {
+      "title": "Divya Katha",
+      "hits": 2,
+      "outlierSum": 27.12,
+      "scannedAt": null,
+      "subs": 504000,
+      "lastSeen": "2026-11-13T00:32:58.408Z"
+    },
+    "UCBpMIrU2SJ-VrozTFqsv1sQ": {
+      "title": "Story Samrat",
+      "hits": 2,
+      "outlierSum": 60.84,
+      "scannedAt": "2026-11-13T00:33:00.644Z",
+      "subs": 32500,
+      "lastSeen": "2026-11-13T00:32:58.408Z"
+    },
+    "UCVyeSBchAP5HlVzMyArktkw": {
+      "title": "DARK DISOM",
+      "hits": 1,
+      "outlierSum": 50,
+      "scannedAt": "2026-11-13T00:33:01.782Z",
+      "subs": 14300,
+      "lastSeen": "2026-11-12T18:47:24.058Z"
+    },
+    "UCq00ewkYQQpWWD2GQq8n04Q": {
+      "title": "MS Story hub",
+      "hits": 2,
+      "outlierSum": 100,
+      "scannedAt": null,
+      "subs": 8530,
+      "lastSeen": "2026-11-13T00:32:58.408Z"
+    },
+    "UCkxyowpdBVAZhG22qVMleWA": {
+      "title": "Gyanwood",
+      "hits": 2,
+      "outlierSum": 46.4,
+      "scannedAt": "2026-11-13T00:33:02.572Z",
+      "subs": 117000,
+      "lastSeen": "2026-11-13T00:32:58.408Z"
+    },
+    "UCl3WrMwvTQI9ECZJNtySdHQ": {
+      "title": "Walk with RS ",
+      "hits": 2,
+      "outlierSum": 100,
+      "scannedAt": "2026-11-13T00:33:00.038Z",
+      "subs": 12500,
+      "lastSeen": "2026-11-13T00:32:58.408Z"
+    },
+    "UCm0eeQzew9qNFr1oxC48pTg": {
+      "title": "Hindi Drama",
+      "hits": 2,
+      "outlierSum": 16.84,
+      "scannedAt": null,
+      "subs": 97600,
+      "lastSeen": "2026-11-13T00:32:58.408Z"
+    },
+    "UCEQF20OtWsyi3Uok3iHLp-A": {
+      "title": "My History",
+      "hits": 2,
+      "outlierSum": 28.92,
+      "scannedAt": null,
+      "subs": 115000,
+      "lastSeen": "2026-11-13T00:32:58.408Z"
+    },
+    "UC3QOxIDbvvhLrCKiTFX-Jfw": {
+      "title": "विजय_कथा",
+      "hits": 2,
+      "outlierSum": 14.1,
+      "scannedAt": null,
+      "subs": 123000,
+      "lastSeen": "2026-11-13T00:32:58.408Z"
+    },
+    "UClreXbIcp2_flVU4FMREJUg": {
+      "title": "Unsuni Tales",
+      "hits": 2,
+      "outlierSum": 13.9,
+      "scannedAt": null,
+      "subs": 3790,
+      "lastSeen": "2026-11-13T00:32:58.408Z"
+    },
+    "UCDm3YNYHF-wXBsqnqENCSTA": {
+      "title": "Itihaas ka sangam",
+      "hits": 2,
+      "outlierSum": 100,
+      "scannedAt": null,
+      "subs": 3650,
+      "lastSeen": "2026-11-13T00:32:58.408Z"
+    },
+    "UCsDTy8jvHcwMvSZf_JGi-FA": {
+      "title": "Abhi and Niyu",
+      "hits": 3,
+      "outlierSum": 1.32,
+      "scannedAt": null,
+      "subs": 6660000,
+      "lastSeen": "2026-11-13T04:57:42.072Z"
+    },
+    "UC5pEueTEbkzRSWnbDgheEJw": {
+      "title": "Supertalks by themovingship ",
+      "hits": 2,
+      "outlierSum": 2.02,
+      "scannedAt": null,
+      "subs": 1900000,
+      "lastSeen": "2026-11-13T00:32:58.408Z"
+    },
+    "UC2yr8p2csJYsASTfQAETzJA": {
+      "title": "Sanatan Kathalaya",
+      "hits": 2,
+      "outlierSum": 12.21,
+      "scannedAt": null,
+      "subs": 135000,
+      "lastSeen": "2026-11-13T00:32:58.408Z"
+    },
+    "UCT1CSUUwBJqMu9TjAGwmlQA": {
+      "title": "स्टॉर्म थिएटर",
+      "hits": 2,
+      "outlierSum": 3.22,
+      "scannedAt": null,
+      "subs": 327000,
+      "lastSeen": "2026-11-13T00:32:58.408Z"
+    },
+    "UC_Lyd8VFK18v97D7ZUC3etw": {
+      "title": "Anokhi Kahani ",
+      "hits": 2,
+      "outlierSum": 1.94,
+      "scannedAt": null,
+      "subs": 92500,
+      "lastSeen": "2026-11-13T00:32:58.408Z"
+    },
+    "UCvKrX11XR1Znxriqij0kMHA": {
+      "title": "BhaktiBook",
+      "hits": 2,
+      "outlierSum": 2.78,
+      "scannedAt": null,
+      "subs": 494000,
+      "lastSeen": "2026-11-13T00:32:58.408Z"
+    },
+    "UCOAWJO0BhOwhXj1bhgWyCFA": {
+      "title": "Babu StoryHindi ",
+      "hits": 2,
+      "outlierSum": 25.3,
+      "scannedAt": null,
+      "subs": 153,
+      "lastSeen": "2026-11-13T00:32:58.408Z"
+    },
+    "UCuOKNXklAJhFC6MSRMDJMfg": {
+      "title": "RAAZ AUR SACH",
+      "hits": 2,
+      "outlierSum": 0.86,
+      "scannedAt": null,
+      "subs": 1190000,
+      "lastSeen": "2026-11-13T00:32:58.408Z"
+    },
+    "UCXNesSyp6gzH2MKAyvxSuHg": {
+      "title": "Hindi TV",
+      "hits": 2,
+      "outlierSum": 6.68,
+      "scannedAt": null,
+      "subs": 5180,
+      "lastSeen": "2026-11-13T00:32:58.408Z"
+    },
+    "UCLWhUPF668K0jWTrMw-DpJg": {
+      "title": "The WillPower Star",
+      "hits": 3,
+      "outlierSum": 2.38,
+      "scannedAt": null,
+      "subs": 2900000,
+      "lastSeen": "2026-11-13T04:57:42.072Z"
+    },
+    "UCLe1rvgvvNh-DbGM2y0ekEw": {
+      "title": "𝗨𝗻𝗸𝗻𝗼𝘄𝗻 𝗜𝘁𝗶𝗵𝗮𝗮𝘀",
+      "hits": 1,
+      "outlierSum": 50,
+      "scannedAt": "2026-11-13T04:57:42.819Z",
+      "subs": 64400,
+      "lastSeen": "2026-11-13T04:57:42.072Z"
+    },
+    "UC3mBv8i98BHOc7zLnRTo2_g": {
+      "title": "Story Cineplex Hindi",
+      "hits": 1,
+      "outlierSum": 50,
+      "scannedAt": null,
+      "subs": 1230,
+      "lastSeen": "2026-11-13T04:57:42.072Z"
+    },
+    "UCK-SilN5e8UIZ-5mdj1igqA": {
+      "title": "Astraway",
+      "hits": 1,
+      "outlierSum": 6.53,
+      "scannedAt": null,
+      "subs": 1690000,
+      "lastSeen": "2026-11-13T04:57:42.072Z"
+    },
+    "UCGM8SM2Fq4Kzzb_fpF1n4Bw": {
+      "title": "Har Mod Ki Kahani",
+      "hits": 1,
+      "outlierSum": 50,
+      "scannedAt": "2026-11-13T04:57:43.490Z",
+      "subs": 25100,
+      "lastSeen": "2026-11-13T04:57:42.072Z"
+    },
+    "UC-f2WBfSCZiu0bOBydjot3w": {
+      "title": "Yarnhub",
+      "hits": 1,
+      "outlierSum": 4.1,
+      "scannedAt": null,
+      "subs": 3430000,
+      "lastSeen": "2026-11-13T04:57:42.072Z"
+    },
+    "UCZKJrxPlNPitJyeRuU0drFg": {
+      "title": "Aakash Tatawat",
+      "hits": 1,
+      "outlierSum": 50,
+      "scannedAt": "2026-11-13T04:57:44.178Z",
+      "subs": 11700,
+      "lastSeen": "2026-11-13T04:57:42.072Z"
+    },
+    "UCCBGUffdWwRV0gUqgElkCfw": {
+      "title": "The Kohistani",
+      "hits": 1,
+      "outlierSum": 0.74,
+      "scannedAt": null,
+      "subs": 3080000,
+      "lastSeen": "2026-11-13T04:57:42.072Z"
+    },
+    "UCkG49maW4sr4pfxYmz9Jj0g": {
+      "title": "Flashback Frenzy",
+      "hits": 1,
+      "outlierSum": 50,
+      "scannedAt": "2026-11-13T04:57:44.827Z",
+      "subs": 27000,
+      "lastSeen": "2026-11-13T04:57:42.072Z"
+    },
+    "UCovVd7_mqpf0l8puD0b-QKw": {
+      "title": "DocoHidden",
+      "hits": 1,
+      "outlierSum": 50,
+      "scannedAt": "2026-11-13T04:57:45.500Z",
+      "subs": 11600,
+      "lastSeen": "2026-11-13T04:57:42.072Z"
+    },
+    "UCLpB9uCGOqtmtkVVwX6WCpw": {
+      "title": "The Unseen Bharat",
+      "hits": 1,
+      "outlierSum": 50,
+      "scannedAt": null,
+      "subs": 15800,
+      "lastSeen": "2026-11-13T04:57:42.072Z"
+    },
+    "UCSwn58VVuOD06pESbKOwtyw": {
+      "title": "Itihas Darpan",
+      "hits": 1,
+      "outlierSum": 50,
+      "scannedAt": null,
+      "subs": 6800,
+      "lastSeen": "2026-11-13T04:57:42.072Z"
+    },
+    "UCbDG4pg8K_ywYqKCs3hk49Q": {
+      "title": "Bharat Ki Amar Kahaniyan",
+      "hits": 2,
+      "outlierSum": 7.57,
+      "scannedAt": null,
+      "subs": 1150000,
+      "lastSeen": "2026-11-13T04:57:42.072Z"
+    },
+    "UC1M2cNDEOMWu9Ns6a33rsJw": {
+      "title": "Genius Chronicles",
+      "hits": 1,
+      "outlierSum": 12.82,
+      "scannedAt": null,
+      "subs": 16100,
+      "lastSeen": "2026-11-13T04:57:42.072Z"
+    },
+    "UCbDhDpB3YVr6jrNrWD0uMqQ": {
+      "title": "BrainBot",
+      "hits": 1,
+      "outlierSum": 4.97,
+      "scannedAt": null,
+      "subs": 245000,
+      "lastSeen": "2026-11-13T04:57:42.072Z"
+    },
+    "UCatL-c6pmnjzEOHSyjn-sHA": {
+      "title": "Khan GS Research Centre",
+      "hits": 1,
+      "outlierSum": 0.23,
+      "scannedAt": null,
+      "subs": 25800000,
+      "lastSeen": "2026-11-13T04:57:42.072Z"
+    },
+    "UCn1_zLy0TZdf-56AReKVosA": {
+      "title": "BHAIRAM VISION ",
+      "hits": 1,
+      "outlierSum": 1.65,
+      "scannedAt": null,
+      "subs": 431000,
+      "lastSeen": "2026-11-13T04:57:42.072Z"
+    },
+    "UCNye-wNBqNL5ZzHSJj3l8Bg": {
+      "title": "Al Jazeera English",
+      "hits": 1,
+      "outlierSum": 0.14,
+      "scannedAt": null,
+      "subs": 18400000,
+      "lastSeen": "2026-11-13T04:57:42.072Z"
+    },
+    "UCB1eDEd1AYG3YrRIJSZzMOQ": {
+      "title": "Real Time History",
+      "hits": 1,
+      "outlierSum": 1.81,
+      "scannedAt": null,
+      "subs": 768000,
+      "lastSeen": "2026-11-13T04:57:42.072Z"
+    },
+    "UCwFYsM0CZumGZsKMKXKtkTw": {
+      "title": "The Royal Blueprint",
+      "hits": 1,
+      "outlierSum": 5.23,
+      "scannedAt": null,
+      "subs": 73400,
+      "lastSeen": "2026-11-13T04:57:42.072Z"
+    },
+    "UCBMbR3BvUxs4DqGEBZd8GPQ": {
+      "title": "Railway Utkarsh",
+      "hits": 1,
+      "outlierSum": 1.49,
+      "scannedAt": null,
+      "subs": 200000,
+      "lastSeen": "2026-11-13T04:57:42.072Z"
+    },
+    "UCHZfx2vngpEZuhybUux5K3A": {
+      "title": "Target with Ankit TWA",
+      "hits": 2,
+      "outlierSum": 0.2,
+      "scannedAt": null,
+      "subs": 1870000,
+      "lastSeen": "2026-11-13T04:57:42.072Z"
+    },
+    "UCX61j3hc9vC0OnDrdLqDqIQ": {
+      "title": "Free GK Trick",
+      "hits": 1,
+      "outlierSum": 19.62,
+      "scannedAt": null,
+      "subs": 5460,
+      "lastSeen": "2026-11-13T04:57:42.072Z"
+    },
+    "UChkIbljIFrhU_5soyvLbJcA": {
+      "title": "Army Study 🇮🇳",
+      "hits": 1,
+      "outlierSum": 0.05,
+      "scannedAt": null,
+      "subs": 1980000,
+      "lastSeen": "2026-11-13T04:57:42.072Z"
+    }
+  }
+}

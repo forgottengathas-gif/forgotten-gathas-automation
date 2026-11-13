@@ -2,3 +2,13 @@
 node_modules/
 out/
 work/
+runs/
+logs/
+preview/
+music/
+music_off/
+brand/src/*.png
+*.tmp
+brand/*.png
+!brand/logo_A.png
+brand/bg_raw.jpg

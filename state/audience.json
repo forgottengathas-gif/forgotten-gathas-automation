@@ -1,0 +1,48 @@
+{
+  "at": "2026-11-13T04:58:00.357Z",
+  "channels": [
+    "𝗨𝗻𝗸𝗻𝗼𝘄𝗻 𝗜𝘁𝗶𝗵𝗮𝗮𝘀",
+    "Har Mod Ki Kahani",
+    "Aakash Tatawat",
+    "Flashback Frenzy",
+    "DocoHidden"
+  ],
+  "wants": [
+    {
+      "topic": "Covert Military Operations & Intelligence Victories (e.g., 1971 Naval Ops, Pokhran Nuclear Test)",
+      "evidence": "DocoHidden's Operation Jackpot 1971 achieved 213.01x normal views and Operation Shakti reached 27.34x normal views. Tactical 2D animated breakdowns of Indian military heroism hugely outperform baseline content.",
+      "strength": 10
+    },
+    {
+      "topic": "Nostalgic Social History & Daily Life 100 Years Ago (e.g., weddings, festivals, lifestyle in colonial India)",
+      "evidence": "Unknown Itihaas saw massive virality with ancient wedding culture (22.83x vsNormal) and 1926 Diwali celebrations (7.55x vsNormal), outperforming standard political history.",
+      "strength": 9
+    },
+    {
+      "topic": "Evolutionary & Origin History of Indian Social Systems (e.g., origins of caste, reservation, human evolution)",
+      "evidence": "Aakash Tatawat's 'Human Evolution' hit 294.8x vsNormal and 'How Caste System Formed' hit 139.46x vsNormal, proving massive interest in long-form timeline origin stories.",
+      "strength": 9
+    },
+    {
+      "topic": "High-Emotion Heroic Sacrifices & Tragedies of the Freedom Struggle (e.g., Bhagat Singh, Jallianwala Bagh, Partition)",
+      "evidence": "Har Mod Ki Kahani's Bhagat Singh full trajectory video achieved 10.4x vsNormal and Jallianwala Bagh got 7.37x vsNormal; Unknown Itihaas's 1947 Partition got 6.03x vsNormal.",
+      "strength": 8
+    }
+  ],
+  "gaps": [
+    "Detailed tactical breakdowns of forgotten Indian naval and covert ops (most channels only cover Siachen or general border wars)",
+    "Nostalgic cultural history of everyday Indians prior to independence ( lifestyle, marriages, food, routines vs typical royal history)",
+    "Comprehensive 'One Shot' linear timelines connecting ancient Indian societal structures directly to modern laws/systems"
+  ],
+  "saturated": [
+    "Standard European empire overviews (e.g., Byzantine Empire, standard Roman Empire history without Indian connection)",
+    "Basic textbook introductions to European explorers (e.g., Vasco da Gama's arrival in India)",
+    "Generic Ram Mandir timeline videos and basic Harappan site summaries without an engaging human hook"
+  ],
+  "title_patterns": [
+    "दादा-दादी के जमाने में / [X] साल पहले [Daily Event] कैसे होता था? | Full Documentary",
+    "Operation [Code Name]: [Shocking Tactical Feat] | [2D Animation / Documentary]",
+    "[Topic] का संपूर्ण इतिहास | One Shot / [Ancient Era] से [Modern Concept] तक",
+    "[Year/Event]: किसी को आज़ादी मिली, किसी को मौत | [Topic] की असली कहानी"
+  ]
+}
