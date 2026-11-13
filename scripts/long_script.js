@@ -11,7 +11,7 @@ let TARGET = Number(env.TARGET_WORDS || 3000);
 
 // visual: "ink" = a cinematic AI picture, "map" = animated map of a real place, "ui" = on-screen motion graphic
 // (date card, big line, a document/letter/farman). Maps and UI cost no image quota.
-const SCENE_SHAPE = `"scenes":[{"text":"Hindi narration in Devanagari for this beat, 2-4 short punchy sentences, 14-22 words (about 6 seconds on screen)",
+const SCENE_SHAPE = `"scenes":[{"text":"Hindi narration in Devanagari for this beat, 2-4 short punchy sentences, 22-30 words (about 9 seconds; the edit cuts it into two shots)",
 "visual":"ink" or "map" or "ui",
 "prompt":"ink only, in ENGLISH: one clear cinematic film-still moment of this beat: who (name the historical figures
 exactly as in the look bible), what they do, where, period costume/armour/architecture of that exact era and region,
@@ -65,7 +65,7 @@ async function writeChapter(topic, plan, i, prevTail) {
       'end on a line that makes leaving impossible'
     : `chapter "${ch.name}" (end it on: ${ch.cliffhanger || 'a turn that makes the listener stay'})`;
   const ask = `${NARRATOR}\n\nVideo: ${topic.topic}. Era: ${plan.era}. Look bible + plan: ${JSON.stringify(plan)}\n` +
-    `Write ${what} in Hindi — about ${target} words, ${Math.max(3, Math.round(target / 18))} scenes. ` +
+    `Write ${what} in Hindi — about ${target} words, ${Math.max(3, Math.round(target / 26))} scenes. ` +
     `Most scenes are "ink" pictures. Add a "map" scene where a place, march or border matters (at most 2 per chapter) ` +
     `and a "ui" scene for a date, a number worth showing big, or a recorded letter/treaty (at most 2 per chapter). ` +
     `Picture prompts must name the historical figures exactly as in the look bible and match ${plan.era}. ` +
@@ -173,7 +173,7 @@ export async function writeLongScript(topic, cacheFile, ctx = {}) {
     const need = Math.min(6, Math.max(3, Math.round((TARGET - total) / 26 / 2)));
     const r = await aiJson(`${NARRATOR}\n\nVideo: ${topic.topic}. Era: ${plan.era}. Look bible: ${JSON.stringify(plan.characters)}\n` +
       `This chapter is too thin:\n${JSON.stringify(c.scenes.map(s => s.text))}\nWrite ${need} NEW Hindi scenes ` +
-      `(14-22 words each) with more documented detail — what people did, the place, the stakes, a telling fact — that ` +
+      `(22-30 words each) with more documented detail — what people did, the place, the stakes, a telling fact — that ` +
       `fit after one of these lines. Don't repeat anything. ` +
       `Return JSON {"after_scene": index of the existing scene they follow (0-based), ${SCENE_SHAPE}}`,
       { check: normScenes, temperature: 0.7 }).catch(() => null);

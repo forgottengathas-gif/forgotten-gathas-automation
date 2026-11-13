@@ -13,6 +13,8 @@ const ff = (args, cwd) => execFileSync('ffmpeg', ['-v', 'error', '-y', ...args],
 export const dur = f => Number(execFileSync('ffprobe', ['-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', f]).toString());
 const frames = sec => Math.round(sec * FPS);
 // owner's reference channels show no subtitles (big golden title words instead) → off unless SUBTITLES=true
+// music level under the voice in dB (owner 2026-11-13: louder, never ducked; was -15 with sidechain ducking)
+const MUSIC_DB = Number(process.env.MUSIC_DB ?? -10);
 const SUBS = String(process.env.SUBTITLES ?? 'false') === 'true';
 
 // ASS subtitle file: chapter cards (Tiro Devanagari) + Hindi subtitles (Mukta ExtraBold, yellow like the niche).
@@ -166,8 +168,8 @@ export function renderVideo(scenes, dir, { musicFiles = [], vcodec = ['libx264',
     let lastM = '[m0]';
     for (let i = 1; i < bed.length; i++) { g += `${lastM}[m${i}]acrossfade=d=3[x${i}];`; lastM = `[x${i}]`; }
     // owner 2026-11-13: music always suspenseful + dramatic, and no static/hiss — low-passed + denoised, ducked under the voice
-    g += `${lastM}volume=-15dB,atrim=0:${total.toFixed(3)},afade=t=in:d=1.2,afade=t=out:st=${(total - 4).toFixed(3)}:d=4[m];` +
-      `[0:a]aresample=48000,highpass=f=70,lowpass=f=11000,afftdn=nf=-35:nt=w,acompressor=threshold=-18dB:ratio=3:attack=5:release=150:makeup=3,loudnorm=I=-14:TP=-1.5:LRA=7,asplit[v1][v2];[m][v1]sidechaincompress=threshold=0.04:ratio=4:attack=30:release=500[md];` +
+    g += `${lastM}volume=${MUSIC_DB}dB,atrim=0:${total.toFixed(3)},afade=t=in:d=1.2,afade=t=out:st=${(total - 4).toFixed(3)}:d=4[m];` +
+      `[0:a]aresample=48000,highpass=f=70,lowpass=f=11000,afftdn=nf=-35:nt=w,acompressor=threshold=-18dB:ratio=3:attack=5:release=150:makeup=3,loudnorm=I=-14:TP=-1.5:LRA=7,agate=threshold=0.012:ratio=6:attack=3:release=120,afade=t=out:st=${(total - 1.5).toFixed(3)}:d=1.5,anull[v2];[m]anull[md];` +
       `[v2][md]amix=inputs=2:normalize=0,loudnorm=I=-13:TP=-1:LRA=9[out]`;
     g = g.replace('[v2][md]amix=inputs=2:normalize=0,', `[${bed.length + 1}:a]aresample=48000,volume=-6dB[sx];[v2][md][sx]amix=inputs=3:normalize=0,`);
     ff(['-i', path.join(dir, 'voice.wav'), ...bed.flatMap(f => ['-i', f]), '-i', sfxF, '-filter_complex', g, '-map', '[out]', '-ac', '2', '-ar', '48000', mix]);

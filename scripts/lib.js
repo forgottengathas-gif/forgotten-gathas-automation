@@ -171,6 +171,12 @@ export function cleanTtsPcm(pcm, sr = 24000) {
     let j = i; while (j < end && !quiet(j) && j - i < 26) j++;
     if (j - i < 26 && quiet(j)) { x.fill(0, i * win, j * win); cut++; i = j; }
   }
+  // soft hiss tail/head (owner 2026-11-13: "static noise at the end must never come again"): low level but noisy
+  // (rms < 0.07 with many zero crossings) right at the clip edge → trimmed, then the 15 ms fades below
+  const hiss = w => rms[w] < 0.07 && zcr[w] > 0.18;
+  while (end - 1 > start && (hiss(end - 1) || quiet(end - 1))) { end--; cut++; }
+  while (start + 1 < end && (hiss(start) || quiet(start)) && start < 40) start++;
+  end = Math.min(nw, end + 3);   // keep 30 ms of natural decay after the last word
   const out = x.slice(start * win, Math.min(x.length, end * win));
   const f = Math.min(out.length >> 1, Math.round(sr * 0.015));   // 15 ms fades, no clicks
   for (let i = 0; i < f; i++) { out[i] = out[i] * i / f; out[out.length - 1 - i] = out[out.length - 1 - i] * i / f; }
@@ -216,7 +222,7 @@ export const INK_STYLE = 'film still from an epic Indian historical movie, lifel
   'period-accurate INDIAN costume and armour (chainmail zirah-bakhtar over quilted angarkha, turbans or Indian conical ' +
   'helmets, Indian talwar swords and round dhal shields, elephants and horses with Indian caparisons; never Roman, Greek ' +
   'or European armour), Indian architecture of that era, dramatic cinematic lighting, atmospheric dust or haze, epic scale, ' +
-  'shallow depth of field, 35mm anamorphic lens, rich warm colour grade, no text, no letters, no words, no numbers, no watermark, no blood, no gore';
+  'shallow depth of field, 35mm anamorphic lens, rich warm colour grade, ONE single full-frame scene (no collage, no split screen, no side-by-side panels), no text, no letters, no words, no numbers, no watermark, no blood, no gore';
 
 // Looks come from each video's look bible (pipeline passes them in), so every picture of a king looks the same.
 export const looksFor = (p, looks = []) => looks.filter(c => c.name && String(p).includes(c.name)).map(c => `${c.name}: ${c.look}`).join('. ');

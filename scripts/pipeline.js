@@ -80,6 +80,12 @@ async function step(r) {
         // one model for the whole video: the first chunk picks it, the rest must use the same one
         const res = await tts(ch.scenes.map(i => spokenHindi(sc[i].text)).join('\n\n'), wavF, { voice: VOICE, models: s.ttsModel ? [s.ttsModel] : TTS_MODELS });
         if (!s.ttsModel) { s.ttsModel = res.model; }
+        // owner 2026-11-13: a slightly faster speech rate (VOICE_TEMPO, default 1.08 = 8% faster, pitch unchanged)
+        const tempo = Number(env.VOICE_TEMPO || 1.08);
+        if (tempo !== 1) {
+          execFileSync('ffmpeg', ['-v', 'error', '-y', '-i', wavF, '-af', `atempo=${tempo}`, '-ar', '24000', '-ac', '1', wavF + '.t.wav']);
+          fs.renameSync(wavF + '.t.wav', wavF);
+        }
         log(`voice chunk ${k + 1}/${s.chunks.length}: ${res.seconds.toFixed(0)} s (${res.model})`); save(r);
       } catch (e) {
         if (e.quota) { log(`TTS daily free quota used (${s.ttsModel || 'all models'}) → voice continues next run`); save(r); return 'waiting'; }

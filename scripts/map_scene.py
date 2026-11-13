@@ -6,7 +6,7 @@ cached in ~/.cache/s2tiles. Two layers: z7 for the wide view of the subcontinent
 faded; India's official outline (data/ne_10m_ind.geojson) as a soft gold glow; pulsing marker + label.
 Usage: python -I map_scene.py <out_dir> <lon> <lat> "<LABEL>" "<sub label>" [seconds=5] [w=1920] [h=1080] [label_png]"""
 import json, math, os, sys, time, urllib.request
-from PIL import Image, ImageDraw, ImageEnhance, ImageFilter, ImageFont
+from PIL import Image, ImageChops, ImageDraw, ImageEnhance, ImageFilter, ImageFont, ImageStat
 
 out, lon0, lat0, label, sub = sys.argv[1], float(sys.argv[2]), float(sys.argv[3]), sys.argv[4], sys.argv[5]
 secs = float(sys.argv[6]) if len(sys.argv) > 6 else 5.0
@@ -48,7 +48,12 @@ def mosaic(z, lon_a, lon_b, lat_a, lat_b):
     for tx in range(x0, x1 + 1):
         for ty in range(y0, y1 + 1):
             img.paste(tile(z, tx, ty), ((tx - x0) * 256, (ty - y0) * 256))
-    return img, x0 * 256, y0 * 256
+    return seamless(img), x0 * 256, y0 * 256
+
+def seamless(img):
+    # TODO: EOX imagery has brightness steps between granules (visible band). Edge matching and step detection were
+    # tried 2026-11-13 and made it worse (colour blocks) → left as is for now.
+    return img
 
 def grade(img):
     img = ImageEnhance.Contrast(img).enhance(1.15)
@@ -69,10 +74,10 @@ def outline_on(img, z, ox, oy):
     return Image.alpha_composite(Image.alpha_composite(img.convert("RGBA"), glow), lay).convert("RGB")
 
 # wide layer (z7, the subcontinent) and close layer (z10, ±2° around the place)
-Z1, Z2 = 7, 10
+Z1, Z2 = 7, 9
 wide, wox, woy = mosaic(Z1, 64, 98, 33, 6)
 wide = outline_on(grade(wide), Z1, wox, woy)
-near, nox, noy = mosaic(Z2, lon0 - 2.2, lon0 + 2.2, lat0 + 1.6, lat0 - 1.6)
+near, nox, noy = mosaic(Z2, lon0 - 3.6, lon0 + 3.6, lat0 + 2.6, lat0 - 2.6)
 near = outline_on(grade(near), Z2, nox, noy)
 
 font_dir = os.path.join(ROOT, "fonts")
@@ -103,16 +108,16 @@ def view(layer, z, ox, oy, clon, clat, span_deg):
 n = int(secs * FPS)
 for k in range(n):
     t = k / max(1, n - 1)
-    span = math.exp(math.log(24) + (math.log(1.6) - math.log(24)) * ease(min(1, t * 1.1)))
+    span = math.exp(math.log(24) + (math.log(4.2) - math.log(24)) * ease(min(1, t * 1.1)))
     e = ease(min(1, t * 1.25))
     clon, clat = 80 + (lon0 - 80) * e, 20.5 + (lat0 - 20.5) * e
-    if span > 3.6:
+    if span > 6.5:
         img, box = view(wide, Z1, wox, woy, clon, clat, span); lay = (Z1, wox, woy)
     else:
         img, box = view(near, Z2, nox, noy, clon, clat, span); lay = (Z2, nox, noy)
-    if 3.6 < span < 5.0:   # cross-fade into the sharp close layer
-        img2, _ = view(near, Z2, nox, noy, clon, clat, min(span, 4.39))
-        img = Image.blend(img, img2, (5.0 - span) / 1.4)
+    if 6.5 < span < 8.0:   # cross-fade into the sharp close layer
+        img2, _ = view(near, Z2, nox, noy, clon, clat, min(span, 7.0))
+        img = Image.blend(img, img2, (8.0 - span) / 1.5)
     img = Image.composite(dark, img, vig)
     d = ImageDraw.Draw(img, "RGBA")
     z, ox, oy = lay; x0, y0, sw, sh = box
