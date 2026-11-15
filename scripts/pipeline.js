@@ -7,6 +7,7 @@ import path from 'node:path';
 import { execFileSync } from 'node:child_process';
 import { ROOT, env, log, tts, TTS_MODELS, fluxImage, httpJson } from './lib.js';
 import { makeThumb } from './thumb.js';
+import { motionStage } from './motion.js';
 import { researchTrends, pickTopic, nextFormat } from './trends.js';
 
 // Charon ≈180 Hindi words/min → 3,000 words ≈ 17 min (owner: 15-20 min)
@@ -149,6 +150,13 @@ async function step(r) {
       execFileSync('python', ['-I', path.join(ROOT, 'scripts', 'map_scene.py'), out, String(ll[0]), String(ll[1]), label, year, '5', '1920', '1080'], { stdio: 'inherit' });
       await new Promise(res => setTimeout(res, 1100));
     }
+    s.stage = 'motion'; save(r);
+  }
+  if (s.stage === 'motion') {
+    // owner 2026-11-15: a few key scenes become moving clips on the free Kaggle GPU (MiniMax H3); the rest stay stills
+    const sc = scenes(), src = sc.map((_, i) => i);
+    const res = await motionStage(s, dir, sc, src, k => path.join(dir, `img${String(k).padStart(3, '0')}.jpg`), () => save(r));
+    if (res === 'waiting') { save(r); return 'waiting'; }
     s.stage = 'thumb'; save(r);
   }
   if (s.stage === 'thumb') {
@@ -176,6 +184,7 @@ async function step(r) {
       const isMap = x.visual === 'map' && fs.existsSync(path.join(mapDir, 'f0149.png'));
       return { ...x, visual: uiStates ? 'ui' : isMap ? 'map' : 'ink', uiStates, mapDir: isMap ? mapDir : null,
         img: x.visual === 'ink' ? imgOf(i) : pic(i),
+        motion: x.visual === 'ink' && fs.existsSync(path.join(dir, `mot${String(i).padStart(3, '0')}.mp4`)) ? path.join(dir, `mot${String(i).padStart(3, '0')}.mp4`) : null,
         voFile: path.join(dir, `vo${n}.wav`), vo: dur(path.join(dir, `vo${n}.wav`)) };
     });
     // Mixkit tracks are fetched at run time (their licence doesn't allow re-hosting them in a public repo)
