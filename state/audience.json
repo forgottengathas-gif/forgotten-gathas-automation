@@ -1,48 +1,58 @@
 {
-  "at": "2026-11-13T15:47:06.242Z",
+  "at": "2026-11-15T01:23:45.211Z",
   "channels": [
-    "The Unseen Bharat",
-    "History Industry",
-    "Kahani Ka Safar",
-    "kwy true tale",
-    "Story Plug Studio"
+    "DOCUMENTARY INDUSTRIES",
+    "Itihaas Ki Kahani 100",
+    "Walk with RS ",
+    "Story Samrat",
+    "DARK DISOM"
   ],
   "wants": [
     {
-      "topic": "Macro-Scale 'Complete History of India' (9000 BC to Modern Era)",
-      "evidence": "'The Unseen Bharat' (vsNormal 71.77, 546k views) and 'kwy true tale' (vsNormal 5.16, 3.7M views) achieved their highest reach with all-encompassing Indian timeline documentaries.",
+      "topic": "Tribal freedom fighters and indigenous resistance heroes",
+      "evidence": "DARK DISOM's Birsa Munda video achieved a massive 988.95 vsNormal (2.2M views), and Sidho-Kanho Murmu achieved 415.7 vsNormal.",
       "strength": 10
     },
     {
-      "topic": "Suppressed/Hidden Lineage & Clan Sagas (e.g., Agnivansh, Forgotten Warrior Orders)",
-      "evidence": "'Kahani Ka Safar' hit a massive 92.71 vsNormal (1.2M views in 9 days) on their Agnivansh video, outperforming all narrative content on their channel.",
+      "topic": "Rise and sudden collapse of ancient Indian civilizations",
+      "evidence": "Itihaas Ki Kahani 100's Indus Valley Civilization documentary went viral at 2,141.64 vsNormal (3.9M views).",
+      "strength": 10
+    },
+    {
+      "topic": "Hidden architectural mysteries and secrets of iconic monuments",
+      "evidence": "Taj Mahal's 22 Hidden Secrets on Itihaas Ki Kahani 100 hit 415.82 vsNormal.",
       "strength": 9
     },
     {
-      "topic": "Dark/Tragic Colonial Micro-Histories & Man-Made Disasters",
-      "evidence": "'Story Plug Studio' scored 21.46 vsNormal (1.7M views in 33 days) focusing specifically on the 1877 Madras Famine ('82 Lakh Maut Ka Sach').",
+      "topic": "Lesser-known fierce Mughal queens and internal power struggles",
+      "evidence": "Walk with RS saw 19.19 vsNormal on Maha Chuchak Begum (who challenged Akbar).",
       "strength": 8
     },
     {
-      "topic": "Destruction & Secret Architecture of Iconic Monuments/Institutions",
-      "evidence": "'kwy true tale' (Nalanda University creation to destruction, vsNormal 3.98) and 'The Unseen Bharat' (Red Fort hidden world, vsNormal 54.69).",
+      "topic": "Modern outlaw and bandit legends of India",
+      "evidence": "Walk with RS scored 14.53 vsNormal on the Phoolan Devi documentary.",
+      "strength": 8
+    },
+    {
+      "topic": "Deep societal origins (caste system, Aryan/Adivasi native lineage)",
+      "evidence": "DOCUMENTARY INDUSTRIES got 17.44 vsNormal on Caste System origins and 5.26 vsNormal on Adivasi/Aryan identity history.",
       "strength": 8
     }
   ],
   "gaps": [
-    "Rigorous, source-backed histories of ancient Indian royal lineages (Agnivansh, Nagavansh) separating myth from verified historical chronicles.",
-    "Granular historical breakdowns of colonial tragedies and famines beyond basic high-school freedom struggle narratives.",
-    "Detailed military tactic breakdowns of forgotten Indian battle victories against foreign invasions."
+    "High-budget cinematic documentaries on tribal rebellions (Santhal Hul, Kol Ulgulan) treated as major mainstream historical milestones.",
+    "Uncensored biographical deep-dives into powerful non-monarchic female rebels and Mughal court matriarchs.",
+    "Rigorous archaeological and environmental collapse explanations for ancient Indian urban centers beyond popular myths."
   ],
   "saturated": [
-    "Standalone, generic Indus Valley Civilization overviews ('kwy true tale' failed at 0.03 vsNormal).",
-    "Generic temple history overviews like Kedarnath without a unique mystery or mega-scale hook ('The Unseen Bharat' dropped to 0.15 vsNormal).",
-    "Abstract global history/civilizations like Maya or early hominids without direct connection to Indian history ('History Industry' Maya video tanked at 0.06 vsNormal).",
-    "Dry statutory/legal histories of India ('50 Laws History' performed at 0.02 vsNormal)."
+    "Foreign or European historical mysteries (e.g., Princes in the Tower, Ancient China, foreign primitives) which consistently tank (vsNormal 0.08 to 0.17).",
+    "Generic medieval Rajput vs invader battle retellings without a specific untold hook (e.g., standard Prithviraj Chauhan Tarain recaps down at 0.22 vsNormal).",
+    "Speculative prehistoric human-vs-beast survival stories lacking Indian cultural resonance."
   ],
   "title_patterns": [
-    "[Topic] का पूरा इतिहास | The Complete History of [Topic]",
-    "[Event/Topic] | [Shocking Statistic/Death Toll] Ka Sach | (Full Hindi Documentary)",
-    "[Warrior Clan/Event], एक ऐसा सच जिसे सदियों तक दुनिया से छिपाकर रखा गया"
+    "[Topic/Origin] का संपूर्ण सफर / सच | The Untold Origin Of [Topic]",
+    "[Monument/Civilization] के [Number] रहस्य जो आज भी दुनिया से छुपे हैं | Hidden Secrets Of [Topic]",
+    "[Lesser Known Hero/Begum] की खौफनाक कहानी | [Famous Emperor/Empire] को चुनौती देने वाली...",
+    "[Civilization] इतनी उन्नत थी फिर कैसे खत्म हो गई? | Complete History Of [Civilization]"
   ]
 }
