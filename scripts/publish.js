@@ -63,7 +63,8 @@ const already = uploads.find(u => u.run === run);
 const tmp = path.join(ROOT, 'runs', '_publish');
 fs.mkdirSync(tmp, { recursive: true });
 let videoId = already?.id;
-if (!already) {
+// a record without a YouTube id = YouTube must be (re)done; other platforms already posted are kept (no duplicates)
+if (!already?.id) {
   for (const k of ['final.mp4', 'thumb.jpg', 'meta.json', 'reel.mp4']) if (files[k]) await download(files[k].id, path.join(tmp, k));
   const meta = JSON.parse(fs.readFileSync(path.join(tmp, 'meta.json'), 'utf8'));
   // preflight on the downloaded copy
@@ -76,7 +77,8 @@ if (!already) {
   const v = await upload(path.join(tmp, 'final.mp4'), { title: meta.title, description: meta.description, tags: meta.tags,
     publishAt, privacy: 'public', categoryId: '27', synthetic: String(env.YT_SYNTHETIC ?? 'true').toLowerCase() === 'true' });
   videoId = v.id;
-  uploads.push({ run, id: v.id, title: meta.title, topic: meta.topic, publishAt: publishAt || new Date().toISOString(), at: new Date().toISOString() });
+  const recNew = { run, id: v.id, title: meta.title, topic: meta.topic, publishAt: publishAt || new Date().toISOString(), at: new Date().toISOString() };
+  if (already) Object.assign(already, recNew); else uploads.push(recNew);
   if (publishAt) log('note: YouTube goes public at', publishAt);
   wj(uploadsFile, uploads);                                    // recorded before anything else can fail → never twice
   // owner 2026-11-13: bold text thumbnail again (needs the channel's one-time phone verification, else 403 → YouTube's own frame)
