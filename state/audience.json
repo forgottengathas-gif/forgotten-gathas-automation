@@ -1,48 +1,81 @@
 {
-  "at": "2026-11-16T01:40:13.642Z",
+  "at": "2026-11-17T07:36:47.678Z",
   "channels": [
-    "AG FACT            ",
-    "The India Story",
-    "Divya Katha",
-    "Gyanwood",
-    "𝗨𝗻𝗸𝗻𝗼𝘄𝗻 𝗜𝘁𝗶𝗵𝗮𝗮𝘀"
+    "India Doc",
+    "Flashback Frenzy",
+    "History Industry",
+    "Kahani Ka Safar",
+    "kwy true tale"
   ],
   "wants": [
     {
-      "topic": "Hidden Indian Royal Treasures & Cave/Fort Mysteries",
-      "evidence": "Taragarh Fort Treasure (vsNormal 44.17), Bimbisara Son Bhandar Cave Treasure (vsNormal 5.11), 1925 King & Dacoit Royal Treasure Heist (vsNormal 9.71)",
-      "strength": 9
-    },
-    {
-      "topic": "Nostalgic Social & Cultural History of 20th-Century India",
-      "evidence": "100-year-old Indian wedding/baraat traditions documentary (vsNormal 23.16), How Diwali was celebrated in 1926 India (vsNormal 7.82)",
+      "topic": "Hidden/secret history framing — \"truths kept hidden for centuries\"",
+      "evidence": "Kahani Ka Safar's top 2 videos (97x, 60x vsNormal) use 'छिपाकर रखा गया' (kept hidden), 'सच' (truth), 'दुनिया से छिपाकर' phrasing; India Doc's 196x video frames independence as '200 साल की गुलामी का अंत' (end of 200-year slavery)",
       "strength": 10
     },
     {
-      "topic": "Dramatic Human-Centric Freedom Struggle & Partition Stories",
-      "evidence": "1947 India Partition documentary 'किसी को आज़ादी मिली, किसी को मौत' (vsNormal 5.95)",
+      "topic": "Intelligence/RAW operations with named operatives (Ajit Doval, specific missions)",
+      "evidence": "India Doc's 65x video: '3 Pakistani Spies... सामने थे Ajit Doval || Raw Mastermind Operation'; viewers gravitate to named modern spymasters and declassified-style ops",
+      "strength": 9
+    },
+    {
+      "topic": "Freedom struggle — but specific turning points, not overviews; Part-2/series continuations",
+      "evidence": "India Doc's 196x video is 'Part-2' on 'कैसे मिली भारत को AZADI'; outperforms standalone overviews massively",
+      "strength": 9
+    },
+    {
+      "topic": "Modern political/underworld history — named figures (Bal Thackeray, Dawood Ibrahim), traps, escapes",
+      "evidence": "India Doc's 44x video: 'How Did Bal Thackeray Escape Dawood Ibrahim's Trap | D-Company Secret Plan'; real-life thriller framing works",
       "strength": 8
     },
     {
-      "topic": "Untold Angles & Nuanced Histories of Epic Indian Figures",
-      "evidence": "Untold Story of Ravan (vsNormal 5.58), Neem Karoli Baba life documentary (vsNormal 23.32)",
+      "topic": "\"How\" questions on ancient Indian achievements — engineering, agriculture, knowledge systems",
+      "evidence": "History Industry's 12x video: 'आदिमानव ने खेती की शुरुआत कैसे की?' (how agriculture started); 7x: 'पिरामिड कैसे बनाए?' (how pyramids built); 3x: 'शुरुआती जीवन कैसा था?'",
       "strength": 8
+    },
+    {
+      "topic": "Forgotten/unsung warriors & lineages — regional heroes erased from mainstream narratives",
+      "evidence": "Kahani Ka Safar's 15x video: 'शूरवीर, एक ऐसे वीर योद्धा की महागाथा, जिसे जानने के लिए सदियों का समय लगा'; 'अग्निवंश' (fire lineage) hidden history",
+      "strength": 8
+    },
+    {
+      "topic": "Destruction/end narratives — \"creation to destruction\" arcs for institutions/cities",
+      "evidence": "kwy true tale's 4x video: 'नालंदा की पूरी कहानी - creation to its destruction'; India Doc's 196x: 'गुलामी का अंत' (end of slavery)",
+      "strength": 7
+    },
+    {
+      "topic": "Comprehensive sweep videos with massive timelines (9000BC–present) — but only as entry points",
+      "evidence": "kwy true tale's 5x video: 'Complete history of India | 9000BC to 2026AD'; works as gateway, not deep dive",
+      "strength": 6
     }
   ],
   "gaps": [
-    "Deep-dive documentary coverage of daily life, living costs, and social customs of ordinary Indians across different eras (e.g., Mughal era India, British Raj 1900s).",
-    "Lesser-known royal heists, fort vault mysteries, and forgotten treasures of specific Indian princely states backed by archival facts rather than pure rumor.",
-    "First-hand micro-histories of Partition and localized freedom struggle incidents beyond standard textbook political timelines."
+    "Declassified RAW/IB operations post-1971 — viewers want mission-by-mission breakdowns with operative names",
+    "Regional freedom fighters outside Bengal/Punjab/Maharashtra — Northeast, South, tribal uprisings",
+    "Ancient Indian science/tech \"how it worked\" — metallurgy (Wootz steel), water management, surgery, astronomy — step-by-step reconstructions",
+    "Women warriors/rulers beyond Rani Lakshmibai — Abbakka Chowta, Velu Nachiyar, Kittur Chennamma, Onake Obavva",
+    "Partition-era intelligence wars — spy networks, refugee corridor operations, princely state accession maneuvers",
+    "Lost cities/submerged civilizations of India — Dwarka, Poompuhar, Muziris — marine archaeology updates",
+    "Post-independence covert wars — Sikkim merger, Operation Blue Star intelligence prep, IPKF Sri Lanka ops"
   ],
   "saturated": [
-    "Standard textbook colonial history (e.g., basic Vasco da Gama arrival videos - vsNormal 0.01).",
-    "Commodity/Object history documentaries without strong royal/mystery angles (e.g., Potato history vsNormal 0.14, Shilajit history vsNormal 0.23).",
-    "Non-Indian history or generic world monuments (e.g., Great Wall of China documentary - vsNormal 0.03)."
+    "\"Entire History of [Empire]\" format — Maurya, Gupta, Mughal, Chola, Vijayanagara, Roman, Byzantine, Egyptian — all underperform (Flashback Frenzy max 2x, Maurya 0.49x)",
+    "Generic Indus Valley Civilization overviews — kwy true tale's IVC video at 0.03x vsNormal",
+    "Standard East India Company \"how they took over\" narrative — India Doc at 0.02x",
+    "Basic human evolution/prehistory documentaries — History Industry's origin videos at 0.17x, 0.06x",
+    "Maya/Aztec/Inca civilizations for Hindi audience — History Industry's Maya at 0.06x",
+    "Fictional/moralistic storytelling disguised as history — Kahani Ka Safar's princess/maid stories at 0.17x, 0.05x",
+    "Dry legal/constitutional history — kwy true tale's '50 laws' at 0.02x",
+    "2D animation explainer format for serious topics — India Doc's Ajit Doval animation at 0.02x"
   ],
   "title_patterns": [
-    "Time-capsule nostalgia hooks: '[X] साल पहले [Topic] कैसे मनाई/होती थी? [Year] के भारत की अनसुनी कहानी!'",
-    "Emotional contrast for major historical events: '[Year]: [Consequence A], [Consequence B] | [Event] की पूरी कहानी'",
-    "Fort & treasure curiosity hooks: '[Place/Fort] का रहस्य: क्या सच में यहाँ छिपा है खजाना?'",
-    "Re-evaluating legendary figures: '[Historical/Epic Figure] का असली और अनसुना इतिहास'"
+    "\"X साल का सच/रहस्य/कहानी\" — time-anchored mystery framing",
+    "\"कैसे [verb]...\" — specific \"how\" questions (कैसे मिली, कैसे बनाए, कैसे की शुरुआत)",
+    "\"Part-2\" / \"Part-3\" — explicit series continuation beats standalone",
+    "\"छिपाकर रखा गया\" / \"दुनिया से छिपा\" — active concealment narrative",
+    "\"[Named Figure] + Trap/Secret Plan/Mastermind Operation\" — thriller framing with real names",
+    "\"Creation to Destruction\" / \"शुरुआत से अंत तक\" — full arc promise",
+    "\"पूरी कहानी — [specific place/event]\" — definitive single-subject promise",
+    "\"वीर योद्धा की महागाथा\" / \"अनसुनी दास्तान\" — unsung hero epic framing"
   ]
 }
