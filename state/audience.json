@@ -1,81 +1,48 @@
 {
-  "at": "2026-11-17T07:36:47.678Z",
+  "at": "2026-11-17T19:11:38.364Z",
   "channels": [
-    "India Doc",
-    "Flashback Frenzy",
-    "History Industry",
-    "Kahani Ka Safar",
-    "kwy true tale"
+    "Civilization Stories",
+    "Story Plug Studio",
+    "DOCUMENTARY INDUSTRIES",
+    "Itihaas Ki Kahani 100",
+    "Walk with RS "
   ],
   "wants": [
     {
-      "topic": "Hidden/secret history framing — \"truths kept hidden for centuries\"",
-      "evidence": "Kahani Ka Safar's top 2 videos (97x, 60x vsNormal) use 'छिपाकर रखा गया' (kept hidden), 'सच' (truth), 'दुनिया से छिपाकर' phrasing; India Doc's 196x video frames independence as '200 साल की गुलामी का अंत' (end of 200-year slavery)",
+      "topic": "Ancient Civilizations (Indus Valley, Egypt, Nalanda)",
+      "evidence": "High vsNormal ratios for Nalanda and Indus Valley documentaries across multiple channels.",
       "strength": 10
     },
     {
-      "topic": "Intelligence/RAW operations with named operatives (Ajit Doval, specific missions)",
-      "evidence": "India Doc's 65x video: '3 Pakistani Spies... सामने थे Ajit Doval || Raw Mastermind Operation'; viewers gravitate to named modern spymasters and declassified-style ops",
+      "topic": "Evolutionary History (Human Origins, Early Humans)",
+      "evidence": "Massive performance of 4.6 Billion Year History and Early Human lifestyle videos.",
       "strength": 9
     },
     {
-      "topic": "Freedom struggle — but specific turning points, not overviews; Part-2/series continuations",
-      "evidence": "India Doc's 196x video is 'Part-2' on 'कैसे मिली भारत को AZADI'; outperforms standalone overviews massively",
-      "strength": 9
-    },
-    {
-      "topic": "Modern political/underworld history — named figures (Bal Thackeray, Dawood Ibrahim), traps, escapes",
-      "evidence": "India Doc's 44x video: 'How Did Bal Thackeray Escape Dawood Ibrahim's Trap | D-Company Secret Plan'; real-life thriller framing works",
+      "topic": "Dark/Mystery History (Famines, Hidden Secrets, Untold Truths)",
+      "evidence": "High engagement on Madras Famine and Taj Mahal secrets.",
       "strength": 8
     },
     {
-      "topic": "\"How\" questions on ancient Indian achievements — engineering, agriculture, knowledge systems",
-      "evidence": "History Industry's 12x video: 'आदिमानव ने खेती की शुरुआत कैसे की?' (how agriculture started); 7x: 'पिरामिड कैसे बनाए?' (how pyramids built); 3x: 'शुरुआती जीवन कैसा था?'",
-      "strength": 8
-    },
-    {
-      "topic": "Forgotten/unsung warriors & lineages — regional heroes erased from mainstream narratives",
-      "evidence": "Kahani Ka Safar's 15x video: 'शूरवीर, एक ऐसे वीर योद्धा की महागाथा, जिसे जानने के लिए सदियों का समय लगा'; 'अग्निवंश' (fire lineage) hidden history",
-      "strength": 8
-    },
-    {
-      "topic": "Destruction/end narratives — \"creation to destruction\" arcs for institutions/cities",
-      "evidence": "kwy true tale's 4x video: 'नालंदा की पूरी कहानी - creation to its destruction'; India Doc's 196x: 'गुलामी का अंत' (end of slavery)",
+      "topic": "Philosophy and Social Systems (Caste system, Charvaka philosophy)",
+      "evidence": "Strong performance for 'The Untold Origin of Caste System' and 'Charvaka Philosophy'.",
       "strength": 7
-    },
-    {
-      "topic": "Comprehensive sweep videos with massive timelines (9000BC–present) — but only as entry points",
-      "evidence": "kwy true tale's 5x video: 'Complete history of India | 9000BC to 2026AD'; works as gateway, not deep dive",
-      "strength": 6
     }
   ],
   "gaps": [
-    "Declassified RAW/IB operations post-1971 — viewers want mission-by-mission breakdowns with operative names",
-    "Regional freedom fighters outside Bengal/Punjab/Maharashtra — Northeast, South, tribal uprisings",
-    "Ancient Indian science/tech \"how it worked\" — metallurgy (Wootz steel), water management, surgery, astronomy — step-by-step reconstructions",
-    "Women warriors/rulers beyond Rani Lakshmibai — Abbakka Chowta, Velu Nachiyar, Kittur Chennamma, Onake Obavva",
-    "Partition-era intelligence wars — spy networks, refugee corridor operations, princely state accession maneuvers",
-    "Lost cities/submerged civilizations of India — Dwarka, Poompuhar, Muziris — marine archaeology updates",
-    "Post-independence covert wars — Sikkim merger, Operation Blue Star intelligence prep, IPKF Sri Lanka ops"
+    "Detailed analysis of non-Indian ancient philosophies (e.g., Greek/Roman) is often ignored or under-produced.",
+    "Deep dives into specific, lesser-known regional freedom fighters that don't fall into the mainstream 'big name' category.",
+    "Scientific/Archaeological evidence-based history rather than just storytelling."
   ],
   "saturated": [
-    "\"Entire History of [Empire]\" format — Maurya, Gupta, Mughal, Chola, Vijayanagara, Roman, Byzantine, Egyptian — all underperform (Flashback Frenzy max 2x, Maurya 0.49x)",
-    "Generic Indus Valley Civilization overviews — kwy true tale's IVC video at 0.03x vsNormal",
-    "Standard East India Company \"how they took over\" narrative — India Doc at 0.02x",
-    "Basic human evolution/prehistory documentaries — History Industry's origin videos at 0.17x, 0.06x",
-    "Maya/Aztec/Inca civilizations for Hindi audience — History Industry's Maya at 0.06x",
-    "Fictional/moralistic storytelling disguised as history — Kahani Ka Safar's princess/maid stories at 0.17x, 0.05x",
-    "Dry legal/constitutional history — kwy true tale's '50 laws' at 0.02x",
-    "2D animation explainer format for serious topics — India Doc's Ajit Doval animation at 0.02x"
+    "General 'Human Evolution' summaries (oversaturated by short-form style content).",
+    "Generic 'Ancient China' or 'Ottoman Empire' videos without a specific Indian connection.",
+    "Basic 'Prithviraj Chauhan' or 'Rajput History' summaries (often low-performing due to high saturation)."
   ],
   "title_patterns": [
-    "\"X साल का सच/रहस्य/कहानी\" — time-anchored mystery framing",
-    "\"कैसे [verb]...\" — specific \"how\" questions (कैसे मिली, कैसे बनाए, कैसे की शुरुआत)",
-    "\"Part-2\" / \"Part-3\" — explicit series continuation beats standalone",
-    "\"छिपाकर रखा गया\" / \"दुनिया से छिपा\" — active concealment narrative",
-    "\"[Named Figure] + Trap/Secret Plan/Mastermind Operation\" — thriller framing with real names",
-    "\"Creation to Destruction\" / \"शुरुआत से अंत तक\" — full arc promise",
-    "\"पूरी कहानी — [specific place/event]\" — definitive single-subject promise",
-    "\"वीर योद्धा की महागाथा\" / \"अनसुनी दास्तान\" — unsung hero epic framing"
+    "The 'Mystery/Secret' hook: 'आख़िर क्या है...', '...का सच', '...के 22 रहस्य'",
+    "The 'Timeline' hook: '460 Crore Saal Ka Itihas', 'आदिमानव से जाति प्रथा तक'",
+    "The 'Catastrophe' hook: 'कैसे खत्म हुई...', '82 Lakh Maut Ka Sach'",
+    "The 'Identity' hook: 'राजपूत आखिर कौन थे?', 'भारत का पुराना धर्म कैसे खत्म हो गया?'"
   ]
 }
