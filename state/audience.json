@@ -1,48 +1,63 @@
 {
-  "at": "2026-11-17T19:11:38.364Z",
+  "at": "2026-11-18T19:07:12.268Z",
   "channels": [
-    "Civilization Stories",
-    "Story Plug Studio",
-    "DOCUMENTARY INDUSTRIES",
-    "Itihaas Ki Kahani 100",
-    "Walk with RS "
+    "info ka godaam",
+    "DARK DISOM",
+    "AG FACT            ",
+    "The India Story",
+    "Gyanwood"
   ],
   "wants": [
     {
-      "topic": "Ancient Civilizations (Indus Valley, Egypt, Nalanda)",
-      "evidence": "High vsNormal ratios for Nalanda and Indus Valley documentaries across multiple channels.",
+      "topic": "Tribal/regional freedom fighters forgotten by mainstream history (Birsa Munda, Sidho-Kanho, Tilka Manjhi, etc.)",
+      "evidence": "DARK DISOM's Birsa Munda video 730x normal, Hul Maha 304x, Tilka Manjhi 19x — by far the highest multipliers in dataset",
       "strength": 10
     },
     {
-      "topic": "Evolutionary History (Human Origins, Early Humans)",
-      "evidence": "Massive performance of 4.6 Billion Year History and Early Human lifestyle videos.",
+      "topic": "Indian forts/temples with active treasure mysteries and unresolved archaeological questions",
+      "evidence": "The India Story: Taragarh fort treasure 67x, Son Bhandar cave 7.7x; AG FACT: El Dorado-style lost gold 65x, desert gold coffin 119x",
       "strength": 9
     },
     {
-      "topic": "Dark/Mystery History (Famines, Hidden Secrets, Untold Truths)",
-      "evidence": "High engagement on Madras Famine and Taj Mahal secrets.",
+      "topic": "Modern-era saints/gurus with documented miracles and living memory (Neem Karoli Baba, etc.)",
+      "evidence": "Gyanwood's Neem Karoli Baba 23x normal (4M views), vastly outperforming ancient temple docs (Badrinath 3.8x, Rameswaram 3.6x)",
       "strength": 8
     },
     {
-      "topic": "Philosophy and Social Systems (Caste system, Charvaka philosophy)",
-      "evidence": "Strong performance for 'The Untold Origin of Caste System' and 'Charvaka Philosophy'.",
+      "topic": "Travelogues linking foreign locations to Indian/Islamic heritage (Jeddah gateway to Makkah, Hong Kong/China Islamic history)",
+      "evidence": "info ka godaam: Jeddah 4.3x, Hong Kong 11.9x, China 4.6x — all Urdu/Hindi, history+travel+heritage angle",
       "strength": 7
+    },
+    {
+      "topic": "Historical crimes/heists/robberies with dramatic storytelling (1925 Devgarh train robbery)",
+      "evidence": "The India Story: 1925 black night train robbery 14x normal — specific year, dramatic event, royalty + bandits",
+      "strength": 6
+    },
+    {
+      "topic": "Ram Setu / Ramayana geography treated as historical investigation not just devotion",
+      "evidence": "Gyanwood Rameswaram+Ram Setu 3.6x; Khatu Shyam (pure devotion) 0.04x — audience wants evidence/mystery angle",
+      "strength": 6
     }
   ],
   "gaps": [
-    "Detailed analysis of non-Indian ancient philosophies (e.g., Greek/Roman) is often ignored or under-produced.",
-    "Deep dives into specific, lesser-known regional freedom fighters that don't fall into the mainstream 'big name' category.",
-    "Scientific/Archaeological evidence-based history rather than just storytelling."
+    "Deep dives on lesser-known tribal revolts (Santhal, Bhil, Kol, Gond, Munda) beyond Birsa Munda — viewers ask \"cover X leader next\" in comments on such videos",
+    "Forensic/archaeological breakdowns of specific treasure legends (\"has anyone actually excavated X?\" \"show the ground-penetrating radar\")",
+    "Family trees and living descendants of forgotten rulers/warriors — \"find their vanshavali\" requests",
+    "Step-by-step travel guides to historical sites featured (\"how to reach\", \"where to stay\", \"permissions needed\")",
+    "Debunking vs. validating popular myths with primary sources (farmans, copper plates, travelogues) — \"show the original document\""
   ],
   "saturated": [
-    "General 'Human Evolution' summaries (oversaturated by short-form style content).",
-    "Generic 'Ancient China' or 'Ottoman Empire' videos without a specific Indian connection.",
-    "Basic 'Prithviraj Chauhan' or 'Rajput History' summaries (often low-performing due to high saturation)."
+    "Generic temple documentaries without mystery/investigation angle (Khatu Shyam 0.04x, Great Wall 0.03x)",
+    "Pure science/tech/future topics (AI, nuclear, potato history, Shilajit) — all <0.3x",
+    "International history without Indian/Islamic connection (Venice engineering 0.05x, Syria 0.17x)",
+    "Well-covered mainstream freedom fighters (Gandhi, Bhagat Singh, Netaji) — no data but implied by tribal outperformance",
+    "Listicle \"top 10 mysteries\" formats — outperformed by single-deep-dive narratives"
   ],
   "title_patterns": [
-    "The 'Mystery/Secret' hook: 'आख़िर क्या है...', '...का सच', '...के 22 रहस्य'",
-    "The 'Timeline' hook: '460 Crore Saal Ka Itihas', 'आदिमानव से जाति प्रथा तक'",
-    "The 'Catastrophe' hook: 'कैसे खत्म हुई...', '82 Lakh Maut Ka Sach'",
-    "The 'Identity' hook: 'राजपूत आखिर कौन थे?', 'भारत का पुराना धर्म कैसे खत्म हो गया?'"
+    "[Place/Person] का रहस्य: क्या सच में यहाँ छिपा है [treasure/secret]? (question + treasure hook)",
+    "[Name]: The Untold Story of [Specific Event/Person] | Short Film/Full Video (\"Untold Story\" + format label)",
+    "[Year] की वो [dramatic adjective] रात: [Specific Incident]! (specific year + dramatic night + event)",
+    "Travel to [Country] 🇺🇳 | History, Amazing Facts & Documentary in Urdu/Hindi (travel + history + language tag)",
+    "[Mystery Object/Place]: [Hyperbolic Claim] जो आज तक नहीं मिला/सुलझा (unsolved + superlative)"
   ]
 }
