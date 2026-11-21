@@ -1,49 +1,69 @@
 {
-  "at": "2026-11-20T01:25:19.419Z",
+  "at": "2026-11-21T07:28:42.657Z",
   "channels": [
-    "Aakash Tatawat",
-    "The Unseen Bharat",
-    "𝗨𝗻𝗸𝗻𝗼𝘄𝗻 𝗜𝘁𝗶𝗵𝗮𝗮𝘀",
-    "Flashback Frenzy",
-    "History Industry"
+    "Kahani Ka Safar",
+    "kwy true tale",
+    "Story Plug Studio",
+    "DOCUMENTARY INDUSTRIES",
+    "Itihaas Ki Kahani 100"
   ],
   "wants": [
     {
-      "topic": "Micro-history of daily cultural life & nostalgia (e.g., 100-year-old weddings, old Diwali traditions)",
-      "evidence": "Unknown Itihaas achieved 19.16x and 7.24x vsNormal on '100 साल पहले दिवाली' and 'दादा-दादी के जमाने में ऐसी होती थी शादी' (5.6M+ and 2.8M+ views).",
+      "topic": "Suppressed/hidden Indian history narratives — truths allegedly concealed for centuries",
+      "evidence": "Kahani Ka Safar's 'अग्निवंश... जिसे सदियों तक दुनिया से छिपाकर रखा गया' (100x normal); DOCUMENTARY INDUSTRIES' 'भारत का पुराना धर्म कैसे खत्म हो गया? Charvaka Philosophy' (148x); Itihaas Ki Kahani's 'हड़प्पा सभ्यता इतनी उन्नत थी फिर कैसे खत्म हो गई?' (1073x) and 'ताजमहल के 22 रहस्य जो आज भी दुनिया से छुपे हैं' (206x)",
       "strength": 10
     },
     {
-      "topic": "Pre-historic human origins & societal shifts in Hindi (Aadimanav discovery of farming, salt, caste origins)",
-      "evidence": "Aakash Tatawat got 298x vsNormal (1.09M views) on Human Evolution and 133x on Caste origin; History Industry got 12.1x vsNormal (12.3M views) on Aadimanav farming.",
+      "topic": "Origin stories of controversial Indian social structures — caste, varna, religious orthodoxy",
+      "evidence": "DOCUMENTARY INDUSTRIES' 'आदिमानव से जाति प्रथा तक का संपूर्ण सफर। The Untold Origin Of Caste System' (18x); Charvaka/ancient materialism video (148x) — viewers crave non-textbook explanations for how current hierarchies began",
       "strength": 9
     },
     {
-      "topic": "Architectural secrets & hidden spaces of iconic monuments (Taj Mahal, Red Fort, Pyramids)",
-      "evidence": "The Unseen Bharat hit 57.7x vsNormal on Red Fort secrets; Unknown Itihaas hit 6.01x vsNormal (5.1M views) on Taj Mahal; History Industry got 7x vsNormal on Pyramids.",
+      "topic": "Civilization collapse mysteries with Indian focus — Indus Valley, Nalanda, lost cities",
+      "evidence": "Itihaas Ki Kahani's Indus Valley collapse (1073x); kwy true tale's Nalanda 'creation to destruction' (4x); Kahani Ka Safar's Agnivansh/shurveer forgotten lineages (100x, 15x) — 'how it ended' beats 'how it began'",
       "strength": 9
     },
     {
-      "topic": "Macro 'Entire History' mega-documentaries on major empires & conquests (Alexander, Roman Empire, Complete India)",
-      "evidence": "The Unseen Bharat scored 72.8x vsNormal on 'Complete History of India'; Flashback Frenzy's top videos are Entire History of Alexander (1.9M views) and Roman Empire (1.3M views).",
+      "topic": "Deep-time Indian history framed as 'complete journey' — 4.6 billion years to Indus Valley/civilization",
+      "evidence": "Story Plug Studio's '460 Crore Saal Ka Itihas | Dinosaur, Human Evolution, Ancient Civilization' (23x); kwy true tale's 'Earth History Documentary | Dinosaur to Human Evolution | #IndusValley' (2.6x) — evolution only works when bridged to Indian civilization",
       "strength": 8
+    },
+    {
+      "topic": "Specific forgotten heroes/lineages erased from mainstream memory",
+      "evidence": "Kahani Ka Safar's 'शूरवीर, एक ऐसे वीर योद्धा की महागाथा' (15x) and Agnivansh (100x) — named but obscure warriors/lineages outperform generic 'kings and battles'",
+      "strength": 7
+    },
+    {
+      "topic": "Man-made catastrophes/famines under colonial or pre-colonial rule with death tolls",
+      "evidence": "Story Plug Studio's '1877 Ka Maha Akal | 82 Lakh Maut Ka Sach | Madras Famine' (12x) — specific numbers + 'sach/truth' framing drives clicks",
+      "strength": 7
     }
   ],
   "gaps": [
-    "Ground-level everyday human history of 18th-20th century India (how normal citizens lived, celebrated, and traveled beyond political rulers).",
-    "Nuanced social history (objective, non-sensational origins of Indian social structures, trade routes, and dietary habits like discovery of salt/spices).",
-    "Detailed engineering and architectural breakdowns of ancient Indian temples and fort systems in Hindi."
+    "Pre-Vedic/Indus Valley religious practices — what they actually worshipped before 'Hinduism' formed (Charvaka success suggests appetite)",
+    "Scientific/technological achievements of ancient India that were lost — not vague 'vimana' claims but specific metallurgy, medicine, urban planning",
+    "History of Indian philosophical debates — Buddhism vs Jainism vs Ajivika vs Charvaka vs Vedic, why some won",
+    "Regional histories outside North India — Chola naval empire, Ahom resistance, Vijayanagara's fall, Northeast kingdoms — barely touched",
+    "Women rulers/scholars beyond Rani Lakshmibai/Razia Sultana — Didda of Kashmir, Rudrama Devi, Akka Mahadevi, Lopamudra",
+    "History of Indian mathematics/astronomy from Sulba Sutras to Kerala School — with names, dates, proofs"
   ],
   "saturated": [
-    "Generic British oppression / colonial rule overviews without a specific narrative hook.",
-    "Obscure foreign civilizations lacking Indian cultural hook or human element (e.g., Byzantine Empire, Maya Civilization).",
-    "Over-broad scientific origin videos (e.g., Origin of Life on Earth) misaligned with human history documentary audiences.",
-    "Repetitive, high-level summaries of medieval massacres (e.g., Timur's atrocities) without new archival visuals or fresh perspective."
+    "Generic 'complete history of India' timelines (kwy true tale's 5x is low for 3.7M views — high absolute but low vsNormal)",
+    "Mughal empire standard narratives — Akbar, Aurangzeb, Taj Mahal romance (unless 'hidden secrets' angle like 22 secrets at 206x)",
+    "Freedom struggle 1857/Gandhi/Bhagat Singh — oversaturated, low differentiation",
+    "Generic dinosaur/evolution documentaries without Indian civilizational bridge (Story Plug weakest at 0.01x)",
+    "Foreign civilization documentaries — Ottoman (0.01x), Ancient China (0.08x), Egypt (11x only with 'how built pyramids' mystery angle)",
+    "Fictional royal/princess drama stories (Kahani Ka Safar weakest 0.17-0.24x) — audience rejects fiction disguised as history",
+    "Primitive human daily life/love stories (DOCUMENTARY INDUSTRIES weakest 0.13-0.16x) — too speculative, not 'Indian history'"
   ],
   "title_patterns": [
-    "[X] साल पहले [Event/Aspect] कैसा होता था? / [Year] के भारत की अनसुनी कहानी!",
-    "आदिमानव से [Modern Topic] तक का पूरा इतिहास / 2D Documentary",
-    "[Monument/Artifact] का वो सच जो आपको कभी नहीं बताया गया | Full Documentary",
-    "The ENTIRE History of [Empire/Conquest] (Hindi Documentary)"
+    "\"X सच जिसे सदियों/सालों तक छिपाकर रखा गया\" (Truth hidden for centuries/years)",
+    "\"इतनी उन्नत थी फिर कैसे खत्म हो गई?\" (So advanced, yet how did it end?) — collapse mystery",
+    "\"Y के Z रहस्य जो आज भी दुनिया से छुपे हैं\" (Z secrets of Y still hidden from world) — numbered secrets",
+    "\"Untold Origin Of X / X की अनकही उत्पत्ति\" — forbidden origin stories",
+    "\"Complete story: Creation to Destruction / पूरी कहानी - निर्माण से विनाश तक\" — full arc framing",
+    "\"Number + Shocking Fact\": \"82 लाख मौत\", \"22 रहस्य\", \"460 करोड़ साल\", \"7 शर्तें\"",
+    "Question as title: \"कैसे खत्म हो गया?\", \"कैसे बनाएं?\", \"क्यों नहीं जानने दिया?\"",
+    "\"Mahagatha / Mahakatha / Virasat\" for forgotten hero/lineage sagas"
   ]
 }
