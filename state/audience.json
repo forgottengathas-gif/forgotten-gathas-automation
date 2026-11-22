@@ -1,69 +1,74 @@
 {
-  "at": "2026-11-21T07:28:42.657Z",
+  "at": "2026-11-22T13:12:31.316Z",
   "channels": [
-    "Kahani Ka Safar",
-    "kwy true tale",
-    "Story Plug Studio",
-    "DOCUMENTARY INDUSTRIES",
-    "Itihaas Ki Kahani 100"
+    "Ittehaaz",
+    "Walk with RS ",
+    "info ka godaam",
+    "DARK DISOM",
+    "Gyanwood"
   ],
   "wants": [
     {
-      "topic": "Suppressed/hidden Indian history narratives — truths allegedly concealed for centuries",
-      "evidence": "Kahani Ka Safar's 'अग्निवंश... जिसे सदियों तक दुनिया से छिपाकर रखा गया' (100x normal); DOCUMENTARY INDUSTRIES' 'भारत का पुराना धर्म कैसे खत्म हो गया? Charvaka Philosophy' (148x); Itihaas Ki Kahani's 'हड़प्पा सभ्यता इतनी उन्नत थी फिर कैसे खत्म हो गई?' (1073x) and 'ताजमहल के 22 रहस्य जो आज भी दुनिया से छुपे हैं' (206x)",
+      "topic": "Tribal & Adivasi freedom fighters (Birsa Munda, Sidho-Kanho, Tilka Manjhi, Santhal Hul, Bhil revolts)",
+      "evidence": "DARK DISOM's Birsa Munda video 893x normal (2.26M views), Sidho-Kanho 372x, Tilka Manjhi 24x — by far the highest multipliers in dataset",
       "strength": 10
     },
     {
-      "topic": "Origin stories of controversial Indian social structures — caste, varna, religious orthodoxy",
-      "evidence": "DOCUMENTARY INDUSTRIES' 'आदिमानव से जाति प्रथा तक का संपूर्ण सफर। The Untold Origin Of Caste System' (18x); Charvaka/ancient materialism video (148x) — viewers crave non-textbook explanations for how current hierarchies began",
+      "topic": "Mughal harem secrets, hidden women power players, and 'forgotten' begums",
+      "evidence": "Walk with RS's 'Mughal harem secrets' 76x normal, Maham/Chuchak Begum 24x — sensational 'hidden history' framing works",
       "strength": 9
     },
     {
-      "topic": "Civilization collapse mysteries with Indian focus — Indus Valley, Nalanda, lost cities",
-      "evidence": "Itihaas Ki Kahani's Indus Valley collapse (1073x); kwy true tale's Nalanda 'creation to destruction' (4x); Kahani Ka Safar's Agnivansh/shurveer forgotten lineages (100x, 15x) — 'how it ended' beats 'how it began'",
-      "strength": 9
-    },
-    {
-      "topic": "Deep-time Indian history framed as 'complete journey' — 4.6 billion years to Indus Valley/civilization",
-      "evidence": "Story Plug Studio's '460 Crore Saal Ka Itihas | Dinosaur, Human Evolution, Ancient Civilization' (23x); kwy true tale's 'Earth History Documentary | Dinosaur to Human Evolution | #IndusValley' (2.6x) — evolution only works when bridged to Indian civilization",
+      "topic": "Folk saints, regional deities & living traditions with historical roots (Neem Karoli Baba, Ram Setu, Badrinath)",
+      "evidence": "Gyanwood's Neem Karoli Baba 23.5x, Rameswaram/Ram Setu 3.5x, Badrinath 3.8x — blend of faith, mystery, archaeology",
       "strength": 8
     },
     {
-      "topic": "Specific forgotten heroes/lineages erased from mainstream memory",
-      "evidence": "Kahani Ka Safar's 'शूरवीर, एक ऐसे वीर योद्धा की महागाथा' (15x) and Agnivansh (100x) — named but obscure warriors/lineages outperform generic 'kings and battles'",
+      "topic": "Bandit/rebel queens & anti-colonial outlaws (Phoolan Devi, Jhalkari Bai, Avantibai, Rani Gaidinliu)",
+      "evidence": "Walk with RS Phoolan Devi 15x — 'Bandit Queen' narrative resonates; underserved vs mainstream royals",
+      "strength": 8
+    },
+    {
+      "topic": "Ancient non-Indian civilizations (Persia, Egypt, Greece, Mesopotamia) as 'entire history' mega-docs",
+      "evidence": "Ittehaaz: Iran 3.25x, Egypt 2.94x, Odyssey 2.8x — long-form 'rise and fall' structure beats episodic",
       "strength": 7
     },
     {
-      "topic": "Man-made catastrophes/famines under colonial or pre-colonial rule with death tolls",
-      "evidence": "Story Plug Studio's '1877 Ka Maha Akal | 82 Lakh Maut Ka Sach | Madras Famine' (12x) — specific numbers + 'sach/truth' framing drives clicks",
+      "topic": "Travel-history hybrids for aspirational destinations (Hong Kong, China, Saudi, Turkey, Central Asia)",
+      "evidence": "info ka godaam: Hong Kong 8.9x, China 4.4x, Jeddah 4x — practical travel + deep history outperforms pure history",
       "strength": 7
+    },
+    {
+      "topic": "'Untold' / 'Hidden' / 'Mystery' framing on medieval Indian mysteries (tower princes, lost cities, unsolved deaths)",
+      "evidence": "Walk with RS 'Princes in Tower' flopped (0.1x) but Mughal harem 'secrets' 76x — angle matters: Indian Mughal secrets > European mysteries",
+      "strength": 6
     }
   ],
   "gaps": [
-    "Pre-Vedic/Indus Valley religious practices — what they actually worshipped before 'Hinduism' formed (Charvaka success suggests appetite)",
-    "Scientific/technological achievements of ancient India that were lost — not vague 'vimana' claims but specific metallurgy, medicine, urban planning",
-    "History of Indian philosophical debates — Buddhism vs Jainism vs Ajivika vs Charvaka vs Vedic, why some won",
-    "Regional histories outside North India — Chola naval empire, Ahom resistance, Vijayanagara's fall, Northeast kingdoms — barely touched",
-    "Women rulers/scholars beyond Rani Lakshmibai/Razia Sultana — Didda of Kashmir, Rudrama Devi, Akka Mahadevi, Lopamudra",
-    "History of Indian mathematics/astronomy from Sulba Sutras to Kerala School — with names, dates, proofs"
+    "Santhal/Bhil/Gond/Khasi tribal uprisings beyond Birsa Munda — almost zero coverage on mid-tier channels",
+    "Mughal women beyond Noor Jahan/Mumtaz — Chuchak Begum, Maham Begum, Zeb-un-Nissa, Jahanara's political role",
+    "Regional freedom struggles: Paika Rebellion (Odisha), Kittur Chennamma, Velu Nachiyar, Alluri Sitarama Raju — rarely get documentary treatment",
+    "Ancient Indian port cities & maritime trade (Muziris, Lothal, Sopara, Arikamedu) — zero long-form Hindi docs",
+    "Sikh misls & pre-Ranjit Singh era — overshadowed by Maharaja Ranjit Singh content",
+    "Deccan sultanates' cultural synthesis (Ahmednagar, Bijapur, Golconda, Bidar) — minimal coverage vs Mughals",
+    "Revolutionary women: Pritilata Waddedar, Kalpana Dutta, Bina Das, Matangini Hazra — absent from documentary space"
   ],
   "saturated": [
-    "Generic 'complete history of India' timelines (kwy true tale's 5x is low for 3.7M views — high absolute but low vsNormal)",
-    "Mughal empire standard narratives — Akbar, Aurangzeb, Taj Mahal romance (unless 'hidden secrets' angle like 22 secrets at 206x)",
-    "Freedom struggle 1857/Gandhi/Bhagat Singh — oversaturated, low differentiation",
-    "Generic dinosaur/evolution documentaries without Indian civilizational bridge (Story Plug weakest at 0.01x)",
-    "Foreign civilization documentaries — Ottoman (0.01x), Ancient China (0.08x), Egypt (11x only with 'how built pyramids' mystery angle)",
-    "Fictional royal/princess drama stories (Kahani Ka Safar weakest 0.17-0.24x) — audience rejects fiction disguised as history",
-    "Primitive human daily life/love stories (DOCUMENTARY INDUSTRIES weakest 0.13-0.16x) — too speculative, not 'Indian history'"
+    "Prithviraj Chauhan / Rajput-Mughal battles — Walk with RS 0.27x, audience fatigued",
+    "Mughal emperor biographies (Akbar, Aurangzeb, Shah Jahan) — unless 'secret/harem/women' angle",
+    "World Wars / European revolutions (French Revolution 0.17x, Princes in Tower 0.1x)",
+    "Mainstream temple docs (Khatu Shyam 0.04x, generic 'history of X temple')",
+    "Great Wall / China generic history (0.03x) — unless travel + modern contrast",
+    "Japan / Korea / Southeast Asia history — Ittehaaz Japan 0.19x, no appetite",
+    "Generic 'mystery' docs without Indian connect (Syria 0.16x, Luxembourg 0.21x)"
   ],
   "title_patterns": [
-    "\"X सच जिसे सदियों/सालों तक छिपाकर रखा गया\" (Truth hidden for centuries/years)",
-    "\"इतनी उन्नत थी फिर कैसे खत्म हो गई?\" (So advanced, yet how did it end?) — collapse mystery",
-    "\"Y के Z रहस्य जो आज भी दुनिया से छुपे हैं\" (Z secrets of Y still hidden from world) — numbered secrets",
-    "\"Untold Origin Of X / X की अनकही उत्पत्ति\" — forbidden origin stories",
-    "\"Complete story: Creation to Destruction / पूरी कहानी - निर्माण से विनाश तक\" — full arc framing",
-    "\"Number + Shocking Fact\": \"82 लाख मौत\", \"22 रहस्य\", \"460 करोड़ साल\", \"7 शर्तें\"",
-    "Question as title: \"कैसे खत्म हो गया?\", \"कैसे बनाएं?\", \"क्यों नहीं जानने दिया?\"",
-    "\"Mahagatha / Mahakatha / Virasat\" for forgotten hero/lineage sagas"
+    "\"Entire History of [Empire] | Rise and Fall of [Empire] | Hindi Documentary\" — Ittehaaz 3x+ multiplier",
+    "\"[Subject] के वो राज़, जिन्हें दुनिया से छिपाया गया! 😱\" — Walk with RS 76x multiplier",
+    "\"[Name] की खौफनाक/पूरी कहानी | [Epithet]\" — Phoolan Devi 15x, Chuchak Begum 24x",
+    "\"[Subject]: इतिहास, प्राचीन रहस्य और अनसुलझे सवाल | Documentary\" — Gyanwood 3.5-3.8x",
+    "\"[Tribal Hero]: धरती आबा | Full Video / Short Film\" — DARK DISOM 893x, 372x",
+    "\"Travel to [Place] 🇺🇳 | History, Amazing Facts & Documentary in Hindi/Urdu\" — info ka godaam 4-9x",
+    "\"Untold Story of [Forgotten Hero] | Short Film\" — tribal heroes, high shareability"
   ]
 }
