@@ -1,74 +1,66 @@
 {
-  "at": "2026-11-22T13:12:31.316Z",
+  "at": "2026-11-23T13:36:44.838Z",
   "channels": [
-    "Ittehaaz",
-    "Walk with RS ",
-    "info ka godaam",
-    "DARK DISOM",
-    "Gyanwood"
+    "Divya Katha",
+    "AG FACT            ",
+    "The India Story",
+    "𝗨𝗻𝗸𝗻𝗼𝘄𝗻 𝗜𝘁𝗶𝗵𝗮𝗮𝘀",
+    "Flashback Frenzy"
   ],
   "wants": [
     {
-      "topic": "Tribal & Adivasi freedom fighters (Birsa Munda, Sidho-Kanho, Tilka Manjhi, Santhal Hul, Bhil revolts)",
-      "evidence": "DARK DISOM's Birsa Munda video 893x normal (2.26M views), Sidho-Kanho 372x, Tilka Manjhi 24x — by far the highest multipliers in dataset",
+      "topic": "Hidden treasure mysteries at specific Indian sites (forts, caves, temples)",
+      "evidence": "Divya Katha's Tulsi Vivah (95.8x) is festival story but The India Story's Taragarh Fort mystery (91.29x) and Son Bhandar cave (10.41x) dominate; AG FACT's Tutankhamun treasure (107.96x) shows same pattern globally",
       "strength": 10
     },
     {
-      "topic": "Mughal harem secrets, hidden women power players, and 'forgotten' begums",
-      "evidence": "Walk with RS's 'Mughal harem secrets' 76x normal, Maham/Chuchak Begum 24x — sensational 'hidden history' framing works",
+      "topic": "Festival/ritual origin stories with 'why' and 'how' angles",
+      "evidence": "Divya Katha's Chhath Puja (27.85x) and Tulsi Vivah (95.8x); Unknown Itihaas's Diwali 100 years ago (3.5x) — all answer 'why celebrated' + 'how it changed'",
       "strength": 9
     },
     {
-      "topic": "Folk saints, regional deities & living traditions with historical roots (Neem Karoli Baba, Ram Setu, Badrinath)",
-      "evidence": "Gyanwood's Neem Karoli Baba 23.5x, Rameswaram/Ram Setu 3.5x, Badrinath 3.8x — blend of faith, mystery, archaeology",
+      "topic": "Social history nostalgia: everyday life 50-100 years ago (weddings, festivals, customs)",
+      "evidence": "Unknown Itihaas's grandparents' era weddings (8.78x, 5.8M views) and Diwali 1926 (3.5x, 2.9M) — relatable, visualizable past",
+      "strength": 9
+    },
+    {
+      "topic": "Origin mysteries: 'first king', 'where gold comes from', 'who built this'",
+      "evidence": "Unknown Itihaas's 'First king of India' (8.59x); AG FACT's 'Gold from dead stars' (13.64x) and gold history (7.25x) — secret knowledge reveals",
       "strength": 8
     },
     {
-      "topic": "Bandit/rebel queens & anti-colonial outlaws (Phoolan Devi, Jhalkari Bai, Avantibai, Rani Gaidinliu)",
-      "evidence": "Walk with RS Phoolan Devi 15x — 'Bandit Queen' narrative resonates; underserved vs mainstream royals",
+      "topic": "Specific historical crimes/heists/betrayals with narrative tension",
+      "evidence": "The India Story's '1925 black night: raja looted own treasury' (19.18x) — crime + royalty + mystery combo",
       "strength": 8
     },
     {
-      "topic": "Ancient non-Indian civilizations (Persia, Egypt, Greece, Mesopotamia) as 'entire history' mega-docs",
-      "evidence": "Ittehaaz: Iran 3.25x, Egypt 2.94x, Odyssey 2.8x — long-form 'rise and fall' structure beats episodic",
+      "topic": "Mythological events retold as 'complete story in X minutes' with geographic/cosmic scale",
+      "evidence": "Divya Katha's Samudra Manthan (11.64x, 1.5M views in 57 days) — epic scale, condensed format",
       "strength": 7
-    },
-    {
-      "topic": "Travel-history hybrids for aspirational destinations (Hong Kong, China, Saudi, Turkey, Central Asia)",
-      "evidence": "info ka godaam: Hong Kong 8.9x, China 4.4x, Jeddah 4x — practical travel + deep history outperforms pure history",
-      "strength": 7
-    },
-    {
-      "topic": "'Untold' / 'Hidden' / 'Mystery' framing on medieval Indian mysteries (tower princes, lost cities, unsolved deaths)",
-      "evidence": "Walk with RS 'Princes in Tower' flopped (0.1x) but Mughal harem 'secrets' 76x — angle matters: Indian Mughal secrets > European mysteries",
-      "strength": 6
     }
   ],
   "gaps": [
-    "Santhal/Bhil/Gond/Khasi tribal uprisings beyond Birsa Munda — almost zero coverage on mid-tier channels",
-    "Mughal women beyond Noor Jahan/Mumtaz — Chuchak Begum, Maham Begum, Zeb-un-Nissa, Jahanara's political role",
-    "Regional freedom struggles: Paika Rebellion (Odisha), Kittur Chennamma, Velu Nachiyar, Alluri Sitarama Raju — rarely get documentary treatment",
-    "Ancient Indian port cities & maritime trade (Muziris, Lothal, Sopara, Arikamedu) — zero long-form Hindi docs",
-    "Sikh misls & pre-Ranjit Singh era — overshadowed by Maharaja Ranjit Singh content",
-    "Deccan sultanates' cultural synthesis (Ahmednagar, Bijapur, Golconda, Bidar) — minimal coverage vs Mughals",
-    "Revolutionary women: Pritilata Waddedar, Kalpana Dutta, Bina Das, Matangini Hazra — absent from documentary space"
+    "Forgotten regional kingdoms' treasure mysteries (non-Rajput, non-Mughal — Ahom, Chola naval, Vijayanagara hidden vaults, Bundelkhand forts)",
+    "Freedom struggle micro-mysteries: lost letters, disappeared revolutionaries, coded messages, Azad Hind gold",
+    "How specific festivals evolved in specific regions (not pan-India) — e.g., 'How Bihu changed in Assam 1900-1950'",
+    "Forgotten queens/warrior women with mystery angle (not just biography — 'where is her sword', 'lost tomb')",
+    "Ancient Indian scientific/technological mysteries with modern verification (not just 'ancient knew everything')"
   ],
   "saturated": [
-    "Prithviraj Chauhan / Rajput-Mughal battles — Walk with RS 0.27x, audience fatigued",
-    "Mughal emperor biographies (Akbar, Aurangzeb, Shah Jahan) — unless 'secret/harem/women' angle",
-    "World Wars / European revolutions (French Revolution 0.17x, Princes in Tower 0.1x)",
-    "Mainstream temple docs (Khatu Shyam 0.04x, generic 'history of X temple')",
-    "Great Wall / China generic history (0.03x) — unless travel + modern contrast",
-    "Japan / Korea / Southeast Asia history — Ittehaaz Japan 0.19x, no appetite",
-    "Generic 'mystery' docs without Indian connect (Syria 0.16x, Luxembourg 0.21x)"
+    "Standard empire overviews (Maurya, Mughal, Gupta, Roman, Byzantine) — Flashback Frenzy's Maurya (0.49x) and Byzantine (0.22x) prove fatigue",
+    "Major temple histories without mystery/treasure hook — Divya Katha's Lepakshi (0.17x) and Tarapith (0.13x)",
+    "Commodity histories (potato, sugar, shilajit, cotton) — AG FACT's potato (0.15x), Unknown Itihaas's sugar (0.01x)",
+    "Dark colonial violence/atrocities without investigative mystery — Unknown Itihaas's Timur (0.01x)",
+    "Speculative future/AI content on history channels — The India Story's bunker (0.24x) and robots (0.17x)",
+    "Generic 'complete history of X dynasty' long-form without specific hook"
   ],
   "title_patterns": [
-    "\"Entire History of [Empire] | Rise and Fall of [Empire] | Hindi Documentary\" — Ittehaaz 3x+ multiplier",
-    "\"[Subject] के वो राज़, जिन्हें दुनिया से छिपाया गया! 😱\" — Walk with RS 76x multiplier",
-    "\"[Name] की खौफनाक/पूरी कहानी | [Epithet]\" — Phoolan Devi 15x, Chuchak Begum 24x",
-    "\"[Subject]: इतिहास, प्राचीन रहस्य और अनसुलझे सवाल | Documentary\" — Gyanwood 3.5-3.8x",
-    "\"[Tribal Hero]: धरती आबा | Full Video / Short Film\" — DARK DISOM 893x, 372x",
-    "\"Travel to [Place] 🇺🇳 | History, Amazing Facts & Documentary in Hindi/Urdu\" — info ka godaam 4-9x",
-    "\"Untold Story of [Forgotten Hero] | Short Film\" — tribal heroes, high shareability"
+    "[Site Name] का रहस्य: क्या सच में यहाँ छिपा है खजाना? (Mystery + treasure question)",
+    "[Festival] क्यों मनाई जाती है? जानिए [Deity/Figure] की अद्भुत कथा (Why + amazing story)",
+    "[Number] साल पहले [Festival/Event] कैसे मनाई जाती थी? [Year] के भारत की अनसुनी कहानी! (Nostalgia + specific year + unheard)",
+    "[Person/Event] का संपूर्ण कथा मात्र [Minutes] मिनट में (Complete story + time promise)",
+    "[Object] धरती का नहीं है! [Shocking origin] | History of [Object] in Hindi (Counter-intuitive origin + science)",
+    "दादा-दादी के जमाने में ऐसी होती थी [Custom]! जब [Specific Detail] | Full Documentary (Relatable past + specific detail)",
+    "[Year] की वो काली रात: [Shocking Action]! 😱 | [Place] का रहस्य (Date + crime + shock emoji + mystery)"
   ]
 }
