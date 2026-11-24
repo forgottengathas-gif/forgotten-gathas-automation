@@ -1,66 +1,48 @@
 {
-  "at": "2026-11-23T13:36:44.838Z",
+  "at": "2026-11-24T19:07:51.428Z",
   "channels": [
-    "Divya Katha",
-    "AG FACT            ",
-    "The India Story",
-    "𝗨𝗻𝗸𝗻𝗼𝘄𝗻 𝗜𝘁𝗶𝗵𝗮𝗮𝘀",
-    "Flashback Frenzy"
+    "Bhakti Sadhna Bharat",
+    "India Doc",
+    "History Industry",
+    "Kahani Ka Safar",
+    "kwy true tale"
   ],
   "wants": [
     {
-      "topic": "Hidden treasure mysteries at specific Indian sites (forts, caves, temples)",
-      "evidence": "Divya Katha's Tulsi Vivah (95.8x) is festival story but The India Story's Taragarh Fort mystery (91.29x) and Son Bhandar cave (10.41x) dominate; AG FACT's Tutankhamun treasure (107.96x) shows same pattern globally",
+      "topic": "Deep-dive Mega Documentaries on Ancient Indian Destruction & Knowledge Loss (e.g., Nalanda University, Burning of Libraries)",
+      "evidence": "kwy true tale's Nalanda documentary achieved 4.07x normal views (2.1M+ total views) and high comment engagement.",
+      "strength": 9
+    },
+    {
+      "topic": "Untold Clan Histories & Dynasty Origins (e.g., Agnivansh, Rajput Origins, Forgotten Lineages)",
+      "evidence": "Kahani Ka Safar's 'अग्निवंश' video hit 87.02x normal performance with 2.45M views in 20 days.",
       "strength": 10
     },
     {
-      "topic": "Festival/ritual origin stories with 'why' and 'how' angles",
-      "evidence": "Divya Katha's Chhath Puja (27.85x) and Tulsi Vivah (95.8x); Unknown Itihaas's Diwali 100 years ago (3.5x) — all answer 'why celebrated' + 'how it changed'",
-      "strength": 9
+      "topic": "Multi-Part Detailed Freedom Struggle & Modern Espionage/Underworld Operations",
+      "evidence": "India Doc's Part-2 on 200 years of slavery hit 199.57x normal performance (2.28M views), while Ajit Doval/Dawood topics achieved 43x-65x normal performance.",
+      "strength": 10
     },
     {
-      "topic": "Social history nostalgia: everyday life 50-100 years ago (weddings, festivals, customs)",
-      "evidence": "Unknown Itihaas's grandparents' era weddings (8.78x, 5.8M views) and Diwali 1926 (3.5x, 2.9M) — relatable, visualizable past",
-      "strength": 9
-    },
-    {
-      "topic": "Origin mysteries: 'first king', 'where gold comes from', 'who built this'",
-      "evidence": "Unknown Itihaas's 'First king of India' (8.59x); AG FACT's 'Gold from dead stars' (13.64x) and gold history (7.25x) — secret knowledge reveals",
+      "topic": "Comprehensive End-to-End Timeline Documentaries (9000 BC to Modern Era)",
+      "evidence": "kwy true tale's 'Complete history of India (9000BC to 2026AD)' generated 3.75M views at 5.14x normal channel median.",
       "strength": 8
-    },
-    {
-      "topic": "Specific historical crimes/heists/betrayals with narrative tension",
-      "evidence": "The India Story's '1925 black night: raja looted own treasury' (19.18x) — crime + royalty + mystery combo",
-      "strength": 8
-    },
-    {
-      "topic": "Mythological events retold as 'complete story in X minutes' with geographic/cosmic scale",
-      "evidence": "Divya Katha's Samudra Manthan (11.64x, 1.5M views in 57 days) — epic scale, condensed format",
-      "strength": 7
     }
   ],
   "gaps": [
-    "Forgotten regional kingdoms' treasure mysteries (non-Rajput, non-Mughal — Ahom, Chola naval, Vijayanagara hidden vaults, Bundelkhand forts)",
-    "Freedom struggle micro-mysteries: lost letters, disappeared revolutionaries, coded messages, Azad Hind gold",
-    "How specific festivals evolved in specific regions (not pan-India) — e.g., 'How Bihu changed in Assam 1900-1950'",
-    "Forgotten queens/warrior women with mystery angle (not just biography — 'where is her sword', 'lost tomb')",
-    "Ancient Indian scientific/technological mysteries with modern verification (not just 'ancient knew everything')"
+    "Nuanced, non-cliché multi-part series on the Indian Freedom Movement beyond basic textbook summaries.",
+    "Detailed historical breakdowns of specific Kshatriya/Dynastic lineages (Agnivansh, Suryavansh) backed by archaeological/textual evidence rather than pure folklore.",
+    "Comprehensive coverage of ancient scientific and educational hub destructions beyond just surface-level mentions."
   ],
   "saturated": [
-    "Standard empire overviews (Maurya, Mughal, Gupta, Roman, Byzantine) — Flashback Frenzy's Maurya (0.49x) and Byzantine (0.22x) prove fatigue",
-    "Major temple histories without mystery/treasure hook — Divya Katha's Lepakshi (0.17x) and Tarapith (0.13x)",
-    "Commodity histories (potato, sugar, shilajit, cotton) — AG FACT's potato (0.15x), Unknown Itihaas's sugar (0.01x)",
-    "Dark colonial violence/atrocities without investigative mystery — Unknown Itihaas's Timur (0.01x)",
-    "Speculative future/AI content on history channels — The India Story's bunker (0.24x) and robots (0.17x)",
-    "Generic 'complete history of X dynasty' long-form without specific hook"
+    "Generic surface-level overviews of Indus Valley Civilisation (e.g., kwy true tale's standard IVC video flopped at 0.03x normal).",
+    "Basic 'How East India Company captured India' standalone videos (India Doc's EIC video failed at 0.02x normal).",
+    "Dry listings of historical laws or acts (e.g., '50 Laws of India' flopped at 0.02x normal)."
   ],
   "title_patterns": [
-    "[Site Name] का रहस्य: क्या सच में यहाँ छिपा है खजाना? (Mystery + treasure question)",
-    "[Festival] क्यों मनाई जाती है? जानिए [Deity/Figure] की अद्भुत कथा (Why + amazing story)",
-    "[Number] साल पहले [Festival/Event] कैसे मनाई जाती थी? [Year] के भारत की अनसुनी कहानी! (Nostalgia + specific year + unheard)",
-    "[Person/Event] का संपूर्ण कथा मात्र [Minutes] मिनट में (Complete story + time promise)",
-    "[Object] धरती का नहीं है! [Shocking origin] | History of [Object] in Hindi (Counter-intuitive origin + science)",
-    "दादा-दादी के जमाने में ऐसी होती थी [Custom]! जब [Specific Detail] | Full Documentary (Relatable past + specific detail)",
-    "[Year] की वो काली रात: [Shocking Action]! 😱 | [Place] का रहस्य (Date + crime + shock emoji + mystery)"
+    "Dramatic Mystery & Secret Hooks: '[Topic], एक ऐसा सच जिसे सदियों तक छिपाया गया...'",
+    "High-Stakes Multi-Part Titles: '[Topic] का अंत — कैसे मिली AZADI || Part-2'",
+    "Definitive Mega-Documentary Tags: 'Complete History of [Topic] | [Start Year] to [End Year] | Full Documentary'",
+    "Confrontation & Survival Framing: 'How [Historical Figure] Escaped [Enemy]'s Trap | Secret Plan'"
   ]
 }
