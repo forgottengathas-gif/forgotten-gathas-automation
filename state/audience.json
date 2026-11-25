@@ -1,48 +1,54 @@
 {
-  "at": "2026-11-24T19:07:51.428Z",
+  "at": "2026-11-25T13:38:07.311Z",
   "channels": [
-    "Bhakti Sadhna Bharat",
-    "India Doc",
-    "History Industry",
-    "Kahani Ka Safar",
-    "kwy true tale"
+    "Civilization Stories",
+    "Story Plug Studio",
+    "DOCUMENTARY INDUSTRIES",
+    "Itihaas Ki Kahani 100",
+    "info ka godaam"
   ],
   "wants": [
     {
-      "topic": "Deep-dive Mega Documentaries on Ancient Indian Destruction & Knowledge Loss (e.g., Nalanda University, Burning of Libraries)",
-      "evidence": "kwy true tale's Nalanda documentary achieved 4.07x normal views (2.1M+ total views) and high comment engagement.",
+      "topic": "Destruction and mystery behind ancient Indian seats of learning and civilizations (Nalanda, Indus Valley)",
+      "evidence": "Civilization Stories Nalanda video achieved 2,980x normal views (3.9M views) and Indus Valley achieved 604x; Itihaas Ki Kahani 100 Harappa video achieved 891x normal (4M views).",
+      "strength": 10
+    },
+    {
+      "topic": "Micro-history of everyday life, winter survival, and economy in 20th century India",
+      "evidence": "Itihaas Ki Kahani 100's video on '1920 winters without quilts' went viral with 20,864x normal views (1.6M in 4 days); '1970s 10 Rupee value' video reached 566x normal views.",
       "strength": 9
     },
     {
-      "topic": "Untold Clan Histories & Dynasty Origins (e.g., Agnivansh, Rajput Origins, Forgotten Lineages)",
-      "evidence": "Kahani Ka Safar's 'अग्निवंश' video hit 87.02x normal performance with 2.45M views in 20 days.",
-      "strength": 10
+      "topic": "Dark British colonial atrocities, deliberate famines, and massive casualty counts",
+      "evidence": "Story Plug Studio's '1877 Madras Famine / 82 Lakh Maut' hit 109x normal views (2.1M views in 45 days).",
+      "strength": 9
     },
     {
-      "topic": "Multi-Part Detailed Freedom Struggle & Modern Espionage/Underworld Operations",
-      "evidence": "India Doc's Part-2 on 200 years of slavery hit 199.57x normal performance (2.28M views), while Ajit Doval/Dawood topics achieved 43x-65x normal performance.",
-      "strength": 10
-    },
-    {
-      "topic": "Comprehensive End-to-End Timeline Documentaries (9000 BC to Modern Era)",
-      "evidence": "kwy true tale's 'Complete history of India (9000BC to 2026AD)' generated 3.75M views at 5.14x normal channel median.",
+      "topic": "Origins of ancient Indian social structures, caste roots, and lost atheist/heterodox philosophies",
+      "evidence": "DOCUMENTARY INDUSTRIES' Charvaka Philosophy video beat normal by 116x (637k views in 11 days); caste system origin videos across channels hit 11x to 18x normal.",
       "strength": 8
+    },
+    {
+      "topic": "Direct comparison between Ancient Egypt and the Indus Valley Civilization",
+      "evidence": "Story Plug Studio's 'Egypt vs Indus Valley' reached 27.68x normal views, outperforming standard travel/geography topics.",
+      "strength": 7
     }
   ],
   "gaps": [
-    "Nuanced, non-cliché multi-part series on the Indian Freedom Movement beyond basic textbook summaries.",
-    "Detailed historical breakdowns of specific Kshatriya/Dynastic lineages (Agnivansh, Suryavansh) backed by archaeological/textual evidence rather than pure folklore.",
-    "Comprehensive coverage of ancient scientific and educational hub destructions beyond just surface-level mentions."
+    "Uncensored, statistically detailed breakdowns of forgotten British-era famines and economic drain beyond generic freedom struggle stories.",
+    "Deep-dive investigations into suppressed or extinct Indian philosophies (e.g., Charvaka, Ajivika) explained through an accessible historical narrative.",
+    "Granular social history detailing how common Indian ancestors lived, dressed, cooked, and survived harsh climates 50 to 100 years ago."
   ],
   "saturated": [
-    "Generic surface-level overviews of Indus Valley Civilisation (e.g., kwy true tale's standard IVC video flopped at 0.03x normal).",
-    "Basic 'How East India Company captured India' standalone videos (India Doc's EIC video failed at 0.02x normal).",
-    "Dry listings of historical laws or acts (e.g., '50 Laws of India' flopped at 0.02x normal)."
+    "Generic introductory videos on the Indian Freedom Struggle ('Aazadi ki ladai kaise shuru hui').",
+    "Broad, abstract Western philosophy topics (e.g., Plato's thoughts) without a direct connection to Indian history.",
+    "Generic foreign travelogues and ancient global history detached from Indian relevance (e.g., Ancient China secrets, Luxembourg/Syria vlogs).",
+    "Prehistoric macro-human evolution, primitive human romance, and megafauna battles."
   ],
   "title_patterns": [
-    "Dramatic Mystery & Secret Hooks: '[Topic], एक ऐसा सच जिसे सदियों तक छिपाया गया...'",
-    "High-Stakes Multi-Part Titles: '[Topic] का अंत — कैसे मिली AZADI || Part-2'",
-    "Definitive Mega-Documentary Tags: 'Complete History of [Topic] | [Start Year] to [End Year] | Full Documentary'",
-    "Confrontation & Survival Framing: 'How [Historical Figure] Escaped [Enemy]'s Trap | Secret Plan'"
+    "آख़िर कैसे/क्या है [Subject] का पूरा इतिहास? / Complete History Mystery",
+    "[Year/Era] में लोग [Basic Necessity/Lifestyle Action] कैसे करते थे? (Nostalgia / Survival Hook)",
+    "[Event Name] | [Exact Death Count / Shocking Metric] का सच (Colonial / Dark History Hook)",
+    "[Ancient Topic A] vs [Ancient Topic B] | Comparative Civilization Battles"
   ]
 }
