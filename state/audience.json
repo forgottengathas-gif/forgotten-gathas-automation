@@ -1,54 +1,65 @@
 {
-  "at": "2026-11-25T13:38:07.311Z",
+  "at": "2026-11-26T07:48:45.979Z",
   "channels": [
-    "Civilization Stories",
-    "Story Plug Studio",
-    "DOCUMENTARY INDUSTRIES",
-    "Itihaas Ki Kahani 100",
-    "info ka godaam"
+    "Gyanwood",
+    "AG FACT            ",
+    "The India Story",
+    "𝗨𝗻𝗸𝗻𝗼𝘄𝗻 𝗜𝘁𝗶𝗵𝗮𝗮𝘀",
+    "Flashback Frenzy"
   ],
   "wants": [
     {
-      "topic": "Destruction and mystery behind ancient Indian seats of learning and civilizations (Nalanda, Indus Valley)",
-      "evidence": "Civilization Stories Nalanda video achieved 2,980x normal views (3.9M views) and Indus Valley achieved 604x; Itihaas Ki Kahani 100 Harappa video achieved 891x normal (4M views).",
+      "topic": "Temple/fort treasure mysteries with \"unsolved\" angle",
+      "evidence": "Gyanwood Badrinath (3.87x), The India Story Taragarh Fort (106x), Son Bhandar (12x), Padmanabhaswamy (7.67x) — all frame as mystery + hidden treasure + unanswered questions",
       "strength": 10
     },
     {
-      "topic": "Micro-history of everyday life, winter survival, and economy in 20th century India",
-      "evidence": "Itihaas Ki Kahani 100's video on '1920 winters without quilts' went viral with 20,864x normal views (1.6M in 4 days); '1970s 10 Rupee value' video reached 566x normal views.",
+      "topic": "Ancient Indian origin mysteries (first king, first civilization)",
+      "evidence": "Unknown Itihaas 'First King of India' (4.62x) — 5000-year mystery framing; Gyanwood Mahabharata evidence (3.41x) — mythology/history verification",
       "strength": 9
     },
     {
-      "topic": "Dark British colonial atrocities, deliberate famines, and massive casualty counts",
-      "evidence": "Story Plug Studio's '1877 Madras Famine / 82 Lakh Maut' hit 109x normal views (2.1M views in 45 days).",
+      "topic": "Spiritual figures with \"mystery/ प्रसंग\" not just biography",
+      "evidence": "Gyanwood Neem Karoli Baba (23.68x) titled 'जीवन के चर्चित प्रसंग और कैंची धाम' vs Khatu Shyam (0.04x) plain biography — 'prasang' + specific location mystery wins",
       "strength": 9
     },
     {
-      "topic": "Origins of ancient Indian social structures, caste roots, and lost atheist/heterodox philosophies",
-      "evidence": "DOCUMENTARY INDUSTRIES' Charvaka Philosophy video beat normal by 116x (637k views in 11 days); caste system origin videos across channels hit 11x to 18x normal.",
+      "topic": "Scientific/historical verification of myths",
+      "evidence": "Gyanwood Mahabharata evidence (3.41x); AG FACT Gold from dead stars (12.3x) — science + history crossover",
       "strength": 8
     },
     {
-      "topic": "Direct comparison between Ancient Egypt and the Indus Valley Civilization",
-      "evidence": "Story Plug Studio's 'Egypt vs Indus Valley' reached 27.68x normal views, outperforming standard travel/geography topics.",
+      "topic": "Social history: daily life/weddings/customs of ancestors",
+      "evidence": "Unknown Itihaas 'Grandparents era weddings' (6.87x) — only social history video in best lists, outperformed empire histories",
+      "strength": 7
+    },
+    {
+      "topic": "Architectural/engineering mysteries of specific monuments",
+      "evidence": "Unknown Itihaas Red Fort construction mystery (3.04x) — 'वो रहस्य जो आज भी हैरान करता है' framing",
       "strength": 7
     }
   ],
   "gaps": [
-    "Uncensored, statistically detailed breakdowns of forgotten British-era famines and economic drain beyond generic freedom struggle stories.",
-    "Deep-dive investigations into suppressed or extinct Indian philosophies (e.g., Charvaka, Ajivika) explained through an accessible historical narrative.",
-    "Granular social history detailing how common Indian ancestors lived, dressed, cooked, and survived harsh climates 50 to 100 years ago."
+    "Multi-part mystery series on single site (viewers ask 'part 2' on treasure videos)",
+    "Scientific forensic analysis of specific artifacts/sites (carbon dating, metallurgy, ground-penetrating radar)",
+    "Living descendants/tradition keepers interviews at mystery sites",
+    "Comparative: same mystery across multiple sites (e.g. 7 unsolved temple doors)",
+    "Pre-Mauryan/pre-historic India with archaeological evidence not speculation"
   ],
   "saturated": [
-    "Generic introductory videos on the Indian Freedom Struggle ('Aazadi ki ladai kaise shuru hui').",
-    "Broad, abstract Western philosophy topics (e.g., Plato's thoughts) without a direct connection to Indian history.",
-    "Generic foreign travelogues and ancient global history detached from Indian relevance (e.g., Ancient China secrets, Luxembourg/Syria vlogs).",
-    "Prehistoric macro-human evolution, primitive human romance, and megafauna battles."
+    "Standard empire rise/fall narratives (Maurya, Mughal, Gupta, Roman, Byzantine — all ≤2x)",
+    "Foreign conqueror biographies (Alexander, Timur — Timur 0x, Alexander 2x)",
+    "Dark/violent history without mystery angle (slavery, atrocities — 0.01x)",
+    "Food/medicinal commodity histories (potato, shilajit — 0.14x, 0.23x)",
+    "Non-Indian topics for Indian audience (Great Wall 0.04x)",
+    "Modern crime/heist/speculative future topics"
   ],
   "title_patterns": [
-    "آख़िर कैसे/क्या है [Subject] का पूरा इतिहास? / Complete History Mystery",
-    "[Year/Era] में लोग [Basic Necessity/Lifestyle Action] कैसे करते थे? (Nostalgia / Survival Hook)",
-    "[Event Name] | [Exact Death Count / Shocking Metric] का सच (Colonial / Dark History Hook)",
-    "[Ancient Topic A] vs [Ancient Topic B] | Comparative Civilization Battles"
+    "[Site/Figure] + रहस्य (mystery) + खजाना/अनसुलझे सवाल (treasure/unsolved questions)",
+    "क्या सच में...? / क्या [myth] सच में हुई थी? (is it true? framing)",
+    "[Number] साल पुराने + इतिहास का सबसे बड़ा रहस्य (X years old + biggest mystery)",
+    "जीवन के चर्चित प्रसंग + [specific location] (famous episodes + specific place)",
+    "वो रहस्य जो आज भी हैरान करता है (mystery that still surprises)",
+    "[Subject] का इतिहास, प्राचीन रहस्य और अनसुलझे सवाल (history, ancient mystery, unsolved questions)"
   ]
 }
