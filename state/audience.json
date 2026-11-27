@@ -1,65 +1,54 @@
 {
-  "at": "2026-11-26T07:48:45.979Z",
+  "at": "2026-11-27T01:39:40.082Z",
   "channels": [
-    "Gyanwood",
-    "AG FACT            ",
-    "The India Story",
-    "𝗨𝗻𝗸𝗻𝗼𝘄𝗻 𝗜𝘁𝗶𝗵𝗮𝗮𝘀",
-    "Flashback Frenzy"
+    "Bhakti Sadhna Bharat",
+    "India Doc",
+    "History Industry",
+    "Kahani Ka Safar",
+    "kwy true tale"
   ],
   "wants": [
     {
-      "topic": "Temple/fort treasure mysteries with \"unsolved\" angle",
-      "evidence": "Gyanwood Badrinath (3.87x), The India Story Taragarh Fort (106x), Son Bhandar (12x), Padmanabhaswamy (7.67x) — all frame as mystery + hidden treasure + unanswered questions",
+      "topic": "Hidden Clan Origins & Suppressed Royal History (e.g., Agnivansh, Hidden Lineages)",
+      "evidence": "Kahani Ka Safar's video on 'अग्निवंश' generated a 85.6x vsNormal view rate, performing massively above channel baseline.",
       "strength": 10
     },
     {
-      "topic": "Ancient Indian origin mysteries (first king, first civilization)",
-      "evidence": "Unknown Itihaas 'First King of India' (4.62x) — 5000-year mystery framing; Gyanwood Mahabharata evidence (3.41x) — mythology/history verification",
+      "topic": "Modern Intelligence, Undercover Ops & Underworld Clashes (Ajit Doval, Bal Thackeray vs Dawood)",
+      "evidence": "India Doc achieved 64.8x vsNormal on Ajit Doval spies and 42.6x on Bal Thackeray vs Dawood Ibrahim.",
       "strength": 9
     },
     {
-      "topic": "Spiritual figures with \"mystery/ प्रसंग\" not just biography",
-      "evidence": "Gyanwood Neem Karoli Baba (23.68x) titled 'जीवन के चर्चित प्रसंग और कैंची धाम' vs Khatu Shyam (0.04x) plain biography — 'prasang' + specific location mystery wins",
+      "topic": "Complete Timeline Mega-Documentaries (9000 BC to Modern / Nalanda Destruction)",
+      "evidence": "kwy true tale hit 5.14x vsNormal on 'Complete History of India' (3.7M views) and 4.07x on 'Nalanda University'.",
       "strength": 9
     },
     {
-      "topic": "Scientific/historical verification of myths",
-      "evidence": "Gyanwood Mahabharata evidence (3.41x); AG FACT Gold from dead stars (12.3x) — science + history crossover",
+      "topic": "High-Stakes Freedom Struggle Turning Points (Part-2 / Final Push to Independence)",
+      "evidence": "India Doc's '200 साल की गुलामी का अंत - AZADI Part-2' reached 199.1x vsNormal with 2.3M+ views on a 19k sub channel.",
       "strength": 8
     },
     {
-      "topic": "Social history: daily life/weddings/customs of ancestors",
-      "evidence": "Unknown Itihaas 'Grandparents era weddings' (6.87x) — only social history video in best lists, outperformed empire histories",
-      "strength": 7
-    },
-    {
-      "topic": "Architectural/engineering mysteries of specific monuments",
-      "evidence": "Unknown Itihaas Red Fort construction mystery (3.04x) — 'वो रहस्य जो आज भी हैरान करता है' framing",
-      "strength": 7
+      "topic": "Prehistoric & Ancient Engineering Mysteries (Pyramids, Agriculture Origins)",
+      "evidence": "History Industry generated over 12M views (12.2x vsNormal) on ancient agriculture and 4.7M views (6.96x vsNormal) on pyramids.",
+      "strength": 8
     }
   ],
   "gaps": [
-    "Multi-part mystery series on single site (viewers ask 'part 2' on treasure videos)",
-    "Scientific forensic analysis of specific artifacts/sites (carbon dating, metallurgy, ground-penetrating radar)",
-    "Living descendants/tradition keepers interviews at mystery sites",
-    "Comparative: same mystery across multiple sites (e.g. 7 unsolved temple doors)",
-    "Pre-Mauryan/pre-historic India with archaeological evidence not speculation"
+    "Granular, multi-part deep dives into specific turning points of the Indian Freedom Struggle rather than surface-level overviews.",
+    "Unbiased historical origins of specific regional dynasties and Rajput/kshatriya clans backed by evidence rather than mythologized dramatization.",
+    "Tactical breakdown of ancient Indian military strategy and siege warfare."
   ],
   "saturated": [
-    "Standard empire rise/fall narratives (Maurya, Mughal, Gupta, Roman, Byzantine — all ≤2x)",
-    "Foreign conqueror biographies (Alexander, Timur — Timur 0x, Alexander 2x)",
-    "Dark/violent history without mystery angle (slavery, atrocities — 0.01x)",
-    "Food/medicinal commodity histories (potato, shilajit — 0.14x, 0.23x)",
-    "Non-Indian topics for Indian audience (Great Wall 0.04x)",
-    "Modern crime/heist/speculative future topics"
+    "Generic surface-level 'East India Company' overviews (India Doc's generic East India video tanked at 0.02x vsNormal).",
+    "Basic Indus Valley Civilization introductory videos without new archaeological discoveries (kwy true tale's standard IVC video performed at 0.03x vsNormal).",
+    "Generic legal/constitutional history overviews ('50 laws of India' at 0.02x vsNormal).",
+    "Fictionalized/moral fairy-tale stories framed around generic kings and princesses without historical authenticity."
   ],
   "title_patterns": [
-    "[Site/Figure] + रहस्य (mystery) + खजाना/अनसुलझे सवाल (treasure/unsolved questions)",
-    "क्या सच में...? / क्या [myth] सच में हुई थी? (is it true? framing)",
-    "[Number] साल पुराने + इतिहास का सबसे बड़ा रहस्य (X years old + biggest mystery)",
-    "जीवन के चर्चित प्रसंग + [specific location] (famous episodes + specific place)",
-    "वो रहस्य जो आज भी हैरान करता है (mystery that still surprises)",
-    "[Subject] का इतिहास, प्राचीन रहस्य और अनसुलझे सवाल (history, ancient mystery, unsolved questions)"
+    "Dramatic Truth/Suppression Hook: '[Topic], एक ऐसा सच जिसे दुनिया से छिपाकर रखा गया | Full Documentary'",
+    "High-Stakes Versus Hook: '[Historical Figure A] vs [Enemy/Spies/Target] || Secret Operation / Untold Plan'",
+    "Comprehensive Timeline Hook: 'Complete History of [Subject] | [Start Date] to [End Date] | Full Documentary'",
+    "Climactic Sequel Hook: '[Event Name] — कैसे मिली भारत को AZADI || Part-2'"
   ]
 }
