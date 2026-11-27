@@ -1,54 +1,47 @@
 {
-  "at": "2026-11-27T01:39:40.082Z",
+  "at": "2026-11-27T19:06:32.313Z",
   "channels": [
-    "Bhakti Sadhna Bharat",
-    "India Doc",
-    "History Industry",
-    "Kahani Ka Safar",
-    "kwy true tale"
+    "Civilization Stories",
+    "Story Plug Studio",
+    "DOCUMENTARY INDUSTRIES",
+    "Itihaas Ki Kahani 100",
+    "info ka godaam"
   ],
   "wants": [
     {
-      "topic": "Hidden Clan Origins & Suppressed Royal History (e.g., Agnivansh, Hidden Lineages)",
-      "evidence": "Kahani Ka Safar's video on 'अग्निवंश' generated a 85.6x vsNormal view rate, performing massively above channel baseline.",
+      "topic": "Everyday Life & Extreme Living Conditions of Common People 50-100+ Years Ago",
+      "evidence": "Itihaas Ki Kahani 100's video on 1920 winter living conditions (42,476x vsNormal) and 1970 cost of living/currency power (521x vsNormal)",
       "strength": 10
     },
     {
-      "topic": "Modern Intelligence, Undercover Ops & Underworld Clashes (Ajit Doval, Bal Thackeray vs Dawood)",
-      "evidence": "India Doc achieved 64.8x vsNormal on Ajit Doval spies and 42.6x on Bal Thackeray vs Dawood Ibrahim.",
+      "topic": "Downfall & Destruction of Ancient Indian Knowledge Hubs and Civilizations",
+      "evidence": "Civilization Stories' Nalanda University documentary (2,983x vsNormal) and Harappan Civilization video (599x vsNormal); Itihaas Ki Kahani 100's Indus Valley video (851x vsNormal)",
+      "strength": 10
+    },
+    {
+      "topic": "Colonial Atrocities & Devastating Historical Famines/Tragedies",
+      "evidence": "Story Plug Studio's 1877 Madras Famine video featuring 82 lakh deaths (174x vsNormal)",
       "strength": 9
     },
     {
-      "topic": "Complete Timeline Mega-Documentaries (9000 BC to Modern / Nalanda Destruction)",
-      "evidence": "kwy true tale hit 5.14x vsNormal on 'Complete History of India' (3.7M views) and 4.07x on 'Nalanda University'.",
-      "strength": 9
-    },
-    {
-      "topic": "High-Stakes Freedom Struggle Turning Points (Part-2 / Final Push to Independence)",
-      "evidence": "India Doc's '200 साल की गुलामी का अंत - AZADI Part-2' reached 199.1x vsNormal with 2.3M+ views on a 19k sub channel.",
-      "strength": 8
-    },
-    {
-      "topic": "Prehistoric & Ancient Engineering Mysteries (Pyramids, Agriculture Origins)",
-      "evidence": "History Industry generated over 12M views (12.2x vsNormal) on ancient agriculture and 4.7M views (6.96x vsNormal) on pyramids.",
+      "topic": "Origins of Lost Heterodox Indian Philosophies & Social Hierarchies",
+      "evidence": "DOCUMENTARY INDUSTRIES' video on Charvaka philosophy (104x vsNormal) and the Origin of Caste System (18x vsNormal)",
       "strength": 8
     }
   ],
   "gaps": [
-    "Granular, multi-part deep dives into specific turning points of the Indian Freedom Struggle rather than surface-level overviews.",
-    "Unbiased historical origins of specific regional dynasties and Rajput/kshatriya clans backed by evidence rather than mythologized dramatization.",
-    "Tactical breakdown of ancient Indian military strategy and siege warfare."
+    "Micro-history focused on how ordinary Indians survived daily life, seasonal extremes, and economic shifts during the Mughal and early British Raj eras",
+    "Deep-dive documentaries on lost heterodox ancient Indian philosophies (Charvaka, Ajivika) and lesser-known ancient universities (Taxila, Vikramashila, Sharada Peeth)",
+    "Specific local colonial tragedies and economic extractions beyond generic, broad freedom struggle timelines"
   ],
   "saturated": [
-    "Generic surface-level 'East India Company' overviews (India Doc's generic East India video tanked at 0.02x vsNormal).",
-    "Basic Indus Valley Civilization introductory videos without new archaeological discoveries (kwy true tale's standard IVC video performed at 0.03x vsNormal).",
-    "Generic legal/constitutional history overviews ('50 laws of India' at 0.02x vsNormal).",
-    "Fictionalized/moral fairy-tale stories framed around generic kings and princesses without historical authenticity."
+    "Generic prehistoric human evolution topics (primitive human love stories, language development, megafauna fights)",
+    "Abstract Western philosophy snippets and quotes (e.g., Plato shorts)",
+    "Broad, non-specific Indian freedom struggle series (e.g., generic 'Part 1' independence stories without a specific tragedy/hero hook)"
   ],
   "title_patterns": [
-    "Dramatic Truth/Suppression Hook: '[Topic], एक ऐसा सच जिसे दुनिया से छिपाकर रखा गया | Full Documentary'",
-    "High-Stakes Versus Hook: '[Historical Figure A] vs [Enemy/Spies/Target] || Secret Operation / Untold Plan'",
-    "Comprehensive Timeline Hook: 'Complete History of [Subject] | [Start Date] to [End Date] | Full Documentary'",
-    "Climactic Sequel Hook: '[Event Name] — कैसे मिली भारत को AZADI || Part-2'"
+    "Specific Year + Mundane Reality Shock Value: '[Year] की [Season] में लोग [Basic Task] कैसे करते थे?' or '[Year] में [Amount] रुपये में क्या आता था?'",
+    "Tragedy / High Death Toll Hook: '[Year] Ka Maha Akal | [Number] Lakh Maut Ka Sach'",
+    "Provocative Question of Loss/Collapse: 'आख़िर कैसे खत्म हुई [Civilization/Institution]?' / 'भारत का पुराना [System/Religion] कैसे खत्म हो गया?'"
   ]
 }
